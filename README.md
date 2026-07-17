@@ -25,13 +25,13 @@ The rules were derived by reverse-engineering roughly **87,000 words of real, hu
 
 ## How to use it
 
-**Any AI, one-off:** attach or paste `BUSINESS-MACEDONIAN.md` into your chat and say *"Write the Macedonian following this guide."*
+**Fastest — set it and forget it:** copy the ready-made prompt in [`SYSTEM-PROMPT.md`](SYSTEM-PROMPT.md) into your ChatGPT custom instructions, a Claude Project, or a Gemini Gem. Your AI then follows the guide in every reply, with nothing to attach.
 
-**ChatGPT / Claude Projects / Gemini Gems:** add `BUSINESS-MACEDONIAN.md` to the project's knowledge / custom instructions. Every chat in that project then follows it automatically.
+**In a hurry / no room for the whole file:** paste the one-page [`CHEATSHEET.md`](CHEATSHEET.md) — the 10 rules that catch almost everything.
 
-**Claude Code (or other agent tools):** drop `BUSINESS-MACEDONIAN.md` into your project and reference it from your instructions file (e.g. `CLAUDE.md`), or load it as a skill.
+**Full power:** attach or add [`BUSINESS-MACEDONIAN.md`](BUSINESS-MACEDONIAN.md) itself — the complete manual with examples, the connector table, and the ~110-phrase business phrase bank. Works as project knowledge, a skill file, or a one-off attachment in any AI tool.
 
-**As a skill:** the file is self-contained Markdown — upload it wherever your tool accepts skill/knowledge files.
+**Best results:** use the system prompt *and* attach the full guide — the prompt is the compressed law, the file has the detail.
 
 ## Scope
 
