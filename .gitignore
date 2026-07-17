@@ -1,0 +1,7 @@
+# Corpus-building scaffolding — not part of the published guide
+work/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
+*.tmp
