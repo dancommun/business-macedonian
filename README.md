@@ -33,6 +33,10 @@ The rules were derived by reverse-engineering roughly **87,000 words of real, hu
 
 **Best results:** use the system prompt *and* attach the full guide — the prompt is the compressed law, the file has the detail.
 
+## Does it actually work?
+
+See [`EXAMPLES.md`](EXAMPLES.md) — four real content types (cold email, sales copy, LinkedIn post, report paragraph), each shown as the AI writes it and as a native writes it, with every fix explained. The foreign versions are grammatically correct; that's exactly why they're instructive.
+
 ## Scope
 
 This teaches the **language**, not any individual's house voice. It is business Macedonian (economy, entrepreneurship, management, finance). Layer your own tone on top.

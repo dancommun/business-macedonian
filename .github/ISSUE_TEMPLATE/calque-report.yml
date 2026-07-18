@@ -1,0 +1,44 @@
+name: "Report a calque"
+description: "An AI wrote a Macedonian phrase no native would say - the most valuable contribution to this project."
+title: "[Calque] "
+labels: ["calque"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you - caught calques are the gold of this project. One phrase per report.
+  - type: input
+    id: calque
+    attributes:
+      label: "What the AI wrote (the calque)"
+      placeholder: "одговарајте од стомак"
+    validations:
+      required: true
+  - type: input
+    id: natural
+    attributes:
+      label: "What a native would say instead"
+      placeholder: "одговорете спонтано и искрено"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "The English expression it came from"
+      placeholder: "answer from the gut"
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: "Where you saw it (optional)"
+      placeholder: "ChatGPT translating a sales email / Claude writing website copy"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I am confident a native speaker would not say the calqued phrase."
+          required: true

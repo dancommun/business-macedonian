@@ -1,0 +1,33 @@
+name: "Suggest a phrase-bank entry"
+description: "A natural business collocation the guide's phrase bank is missing."
+title: "[Phrase] "
+labels: ["phrase-bank"]
+body:
+  - type: input
+    id: mk
+    attributes:
+      label: "The Macedonian phrase"
+      placeholder: "да вродат со плод"
+    validations:
+      required: true
+  - type: input
+    id: en
+    attributes:
+      label: "English meaning"
+      placeholder: "to bear fruit"
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: "Typical context"
+      placeholder: "reforms, investments, long-term efforts"
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Confirmation"
+      options:
+        - label: "I have seen this phrase in native business writing or heard it from native speakers - it is not a translation from English."
+          required: true

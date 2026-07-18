@@ -10,7 +10,7 @@ If you catch an AI writing a phrase that no Macedonian would actually say, that 
 |---|---|---|
 | the bad phrase | the phrase a native would use | the English expression it came from |
 
-Open an issue or a pull request adding the row to the blacklist in **Section 1** of `BUSINESS-MACEDONIAN.md`. One phrase per row. The English source matters — it explains *why* the AI produced the mistake.
+The fastest way: use the **["Report a calque" issue form](../../issues/new?template=calque-report.yml)** — it asks exactly these three things. Or open a pull request adding the row to the blacklist in **Section 1** of `BUSINESS-MACEDONIAN.md`. One phrase per report. The English source matters — it explains *why* the AI produced the mistake.
 
 ## Other useful contributions
 
