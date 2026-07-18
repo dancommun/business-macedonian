@@ -33,7 +33,13 @@
     { "pattern": "решенија засновани на податоци|сознанија засновани на податоци", "suggestion": "одлуки поткрепени со бројки", "english": "data-driven insights" },
     { "pattern": "само сакав да (проверам|се навратам)", "suggestion": "Дали имавте можност да го разгледате…", "english": "just checking in / circling back" },
     { "pattern": "не двоумете се да (ме|нè) контактира[а-џ]*", "suggestion": "Ви стојам на располагање", "english": "don't hesitate to contact me" },
-    { "pattern": "драг(а)? господине|драга госпоѓо", "suggestion": "Почитуван господине / Почитувана госпоѓо", "english": "Dear Sir/Madam (over-warm)" }
+    { "pattern": "драг(а)? господине|драга госпоѓо", "suggestion": "Почитуван господине / Почитувана госпоѓо", "english": "Dear Sir/Madam (over-warm)" },
+    { "pattern": "возбуден(и)? сум да сподел[а-џ]*|возбудени сме да", "suggestion": "кажи го просто: Ново во… / Со задоволство објавувам", "english": "excited to share/announce" },
+    { "pattern": "коментирајте подолу|означи пријател|следете за повеќе|останете во тек", "suggestion": "заврши на поентата, без мамка за коментари", "english": "engagement bait (comment below / tag a friend / follow for more)" },
+    { "pattern": "(ајде )?да нурнеме", "suggestion": "ајде да видиме", "english": "let's dive in" },
+    { "pattern": "трка кон дното", "suggestion": "натпревар што секогаш го губите (плус објаснување)", "english": "race to the bottom" },
+    { "pattern": "го држи буден ноќе", "suggestion": "вистинска мака за некого", "english": "keeps someone up at night" },
+    { "pattern": "пад од карпа", "suggestion": "драматичен пад", "english": "falling off a cliff" }
   ],
   "connectors": {
     "avoid": {

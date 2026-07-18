@@ -1,6 +1,6 @@
 ---
 name: business-macedonian
-description: Write natural business Macedonian instead of translated-sounding "foreigner Macedonian". Use whenever writing, translating, or reviewing ANY Macedonian text for business — website copy, emails, proposals, reports, marketing, social posts, UI strings. Kills calqued English idioms, bookish connectors, and English sentence shapes wearing Cyrillic letters.
+description: Write natural business Macedonian instead of translated-sounding foreigner Macedonian. Use whenever writing, translating, or reviewing any Macedonian business text such as website copy, emails, proposals, reports, marketing, or social posts. Kills calqued English idioms, bookish connectors, and English sentence shapes written in Cyrillic.
 ---
 
 # Business Macedonian

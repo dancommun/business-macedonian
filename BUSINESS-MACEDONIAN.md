@@ -476,6 +476,13 @@ Marketing is where translated-English cliché is thickest. The worst offender is
 | се надевам дека овој меил ве наоѓа добро | (drop it) Пишувам во врска со… | hope this email finds you well |
 | само сакав да проверам / да се навратам | Дали имавте можност да го разгледате… | just checking in / circling back |
 | не двоумете се да ме контактирате | Ви стојам на располагање | don't hesitate to contact me |
+| возбуден сум да споделам | (кажи го просто) Со задоволство објавувам | excited to share/announce |
+| следете за повеќе | следете нè (or omit) | follow for more |
+| да нурнеме (во темата) | ајде да видиме | let's dive in |
+| трка кон дното | (плус објаснување) натпревар што секогаш го губите | race to the bottom |
+| го држи буден ноќе | вистинска мака за некого | keeps someone up at night |
+| пад од карпа | драматичен пад | falling off a cliff |
+| скршен бизнис / го крши | расипан бизнис / го докрајчува | broken business / breaks it (крши = physical only) |
 
 ---
 
@@ -613,12 +620,74 @@ A bare plural vocative on its own line, ending in a **comma** (never a colon):
 
 ---
 
+## Section 12 — Social & Short-form Register (posts, thought-leadership, announcements)
+
+LinkedIn posts, opinion pieces, and short brand/social copy. This is where English "engagement" habits calque most aggressively, and where the native voice is most different. Derived from Macedonian thought-leadership essays and local brand short-form copy.
+
+### 12.1 The hook opens on the *reader's* situation, not the writer's feelings
+
+English social posts open by performing the author's emotion ("Excited to share…", "I'm thrilled to announce…"). Macedonian does the opposite — it drops the reader straight into their own experience:
+
+- **Reader-inside-the-pain:** `Сигурно сте почувствувале што значат прекини во работата.` / `Сигурно сте се нашле во ситуација…`
+- **Rhetorical yes-question:** `Дали постои претприемач кој не сакал…?`
+- **A single-word fragment:** `Неизвесност.` · `Грешките се дел од секојдневието.`
+- **Straight into confession/anecdote**, no "let me tell you a story" framing: `Отсекогаш барам начин како да бидам попродуктивен.`
+
+❌ Never `Возбуден сум да споделам…` ("Excited to share") — a pure calque and the loudest social tell.
+
+### 12.2 The argument is carried by rhythm, not evidence-stacking
+
+- **Short blunt punch sentences** after a longer setup: `Тие се исти.` · `Не постојат лесни пари.` · `Тоа е факт.`
+- **`Но,` / `А,` sentence-initial pivot** for the counter-turn (no "however" scaffolding), and **`Зошто? Затоа што…`** question-then-answer.
+- **The `не X, туку Y` antithesis** is the workhorse — where English lands "it's not about X, it's about Y" once as a punchline, Macedonian runs it several times through the piece.
+- **First-person-singular authority is a feature, not a flaw** in a named person's post: `сум, мислам, сметам, велам`, plus a personal anecdote with real numbers (`500-600 пораки`). Expressive interjections (`Уф, уф, уф…`) and trailing ellipses live comfortably in serious business copy.
+
+### 12.3 Closes reject engagement-bait
+
+The English "What do you think? Comment below 👇 / Follow for more / Tag a friend" family does not exist natively — it reads as imported. Native closes:
+- **`Затоа` + one concrete imperative:** `Затоа внимавајте со кого работите.`
+- **A genuine reflection question that may release the reader:** `Што мислите? Не мора да одговарате…`
+- **A calm definitional punch:** `Тоа е вашата цел како претприемач.`
+- **A future-benefit clause:** `вложете време сега, за да немате проблеми утре.`
+- **A next-installment teaser** — never a motivational flourish or a follow-for-more beg.
+
+### 12.4 Register is set by intimacy and by author, not by platform
+
+- **`ти` (singular)** for warm coaching / peer / mentoring copy: `Направи`, `Додади`, `размисли`, `твојот тим`.
+- **`Вие` (polite)** for respectful advice: `внимавајте`, `разгледајте`, `можете`.
+- **Impersonal** for institutional voice: `се забележува`, `потребно е`.
+- **A company speaks in first-person *plural*** (`го отворивме`, `нашите граѓани`) — never the thought-leadership first-person *singular* (`сум / мислам`), which belongs to a named individual's column.
+- Never mix `ти` and `Вие` within one piece.
+
+### 12.5 Company short-form: the news is the hook
+
+- **No excitement pre-amble.** "We're excited to announce" calques to *nothing*. Open on the thing itself: `Ново во Тинекс!`, a bare declarative + `!`, or fronted comparatives `Побрзо и полесно…`.
+- **Reason-fronted announcements:** put the justification first as a participial clause, the actor after the comma: `Во чекор со трендовите, Тинекс…` · `Свесни за состојбата, Тинекс…`.
+- **Events are date-first and hype-free:** `На 19 јуни ќе се одржи…`.
+- **Warmth is topic-gated:** the same brand uses `ти` for a product bite but switches to `Вие`/impersonal for an apology, recall, or legal notice — warmth in an apology reads non-native.
+- **Branded hashtags are coined in Cyrillic CamelCase:** `#СекојДенЗдравиНавики`.
+
+### 12.6 The social calque blacklist (engagement-bait)
+
+| ❌ Calque | ✅ Natural | English source |
+|---|---|---|
+| Возбуден сум да споделам / Возбудени сме да објавиме | (state it plainly) Ново во X! · Со задоволство објавувам | Excited to share / announce |
+| Што мислите? Коментирајте подолу! | (end on the point; no bait) | What do you think? Comment below |
+| Следете за повеќе / Останете во тек | Следете нè (or omit) | Follow for more / Stay tuned |
+| Означи пријател | (not a native brand device — omit) | Tag a friend |
+| да нурнеме / ајде да нурнеме | Ајде да видиме… | let's dive in |
+| да го подигнеме на следно ниво | да го подобриме / да чекориме понатаму | take it to the next level |
+| Сподели ги твоите мисли | Кажи што мислиш (only if truly conversational) | Share your thoughts |
+
+---
+
 ## Appendix — Provenance and Confidence
 
 - **Corpus (Sections 1–8, news register):** ~860 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). 435 were read in full: ~40 in a deep literal-back-translation pass and 397 in a broad validation sweep, totalling roughly 143,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
 - **Corpus (Section 9, marketing register):** ~40 pages of originally-written Macedonian marketing copy from local insurers, retailers, FMCG brands, fuel/energy companies, and local agencies, triaged to exclude translated (group-owned telecom) copy. Smaller and page-based rather than word-counted; treat Section 9 as well-grounded but less exhaustively validated than Sections 1–8.
 - **Corpus (Section 10, formal-document register):** ~24 Macedonian formal documents — bank annual-report CEO letters, National Bank analyses and financial-stability reports, and government/ministry strategy and program documents — read for their narrative prose (tables excluded). Institutional Macedonian is originally-written, so translation risk is low; the connector frequencies cited are real counts from these documents.
 - **Corpus (Section 11, email register):** codified from Macedonian business-correspondence and email-etiquette conventions, cross-checked against the Section 10 salutation/sign-off findings. The salutation, sign-off, vocative, and capitalization rules are well-attested; the functional phrase bank is reliable but was not drawn from a single authoritative corpus — a native ear is the final gate for high-stakes wording.
+- **Corpus (Section 12, social/short-form register):** ~43 pieces — Macedonian thought-leadership/opinion essays (largely one deep pre-2023 native archive) and short-form copy from local brands. The thought-leadership rules are well-grounded but lean on a single prolific author's voice; the brand short-form rules span several local brands. Treat as reliable but less broadly sampled than the news register.
 - **Method:** rules were derived from the deep pass, then validated against the full broad sweep. The complete validation killed no rule and confirmed the load-bearing ones (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) across 100+ texts each — these are high-confidence. A few (scheduled-present tense, `сè додека` negation) rest on fewer examples and are marked in-text as tendencies — reliable but not exceptionless. Two rules are register-dependent and the guide flags both readings: foreign brand names may stay in Latin in contemporary copy (Section 8), and foreign institutions may take the subject slot English-style (Section 3.2).
 - **What this file deliberately excludes:** personal style preferences of any individual writer. It teaches the *language*, not a house voice. Layer your own tone on top.
 - **Contributing:** the highest-value contribution is a **caught calque** — a phrase an AI produced that no native would say — in the form `bad phrase → natural phrase → English source`, added to the Section 1 blacklist. Corrections are paid for once and should never be paid for twice.

@@ -21,6 +21,7 @@ The guide has eight sections:
 9. **Marketing & sales register** — the ти-vs-Вие map, native CTAs and slogans, brand-story voice, and the "решенија" calque plague
 10. **Formal document & proposal register** — report and strategy prose: frozen salutations and sign-offs, nominalized objectives, indirect commitment, double-hedged forecasts, the dense formal-connector inventory
 11. **Email & correspondence register** — vocative salutations, the sign-off hierarchy, a functional phrase bank, and the email calques to never open with
+12. **Social & short-form register** — posts and thought-leadership: reader-first hooks, rhythm-driven argument, closes that reject engagement-bait, and the LinkedIn calque family
 
 ## How it was built
 
