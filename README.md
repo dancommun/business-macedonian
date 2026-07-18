@@ -6,6 +6,8 @@ AI models know Macedonian *grammar* but lack Macedonian *instinct*. Left alone t
 
 [`BUSINESS-MACEDONIAN.md`](BUSINESS-MACEDONIAN.md) is the cure: an operating manual, instructions in English, examples in Macedonian.
 
+**▶ Live calque checker:** [dancommun.github.io/business-macedonian](https://dancommun.github.io/business-macedonian/) — paste Macedonian text, see the tells flagged instantly.
+
 ## What's inside
 
 The guide has eight sections:
