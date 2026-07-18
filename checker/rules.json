@@ -39,7 +39,8 @@
     { "pattern": "(ајде )?да нурнеме", "suggestion": "ајде да видиме", "english": "let's dive in" },
     { "pattern": "трка кон дното", "suggestion": "натпревар што секогаш го губите (плус објаснување)", "english": "race to the bottom" },
     { "pattern": "го држи буден ноќе", "suggestion": "вистинска мака за некого", "english": "keeps someone up at night" },
-    { "pattern": "пад од карпа", "suggestion": "драматичен пад", "english": "falling off a cliff" }
+    { "pattern": "пад од карпа", "suggestion": "драматичен пад", "english": "falling off a cliff" },
+    { "pattern": "залеп[а-џ]*( (го|ја|ги))?( (вашиот|вашата|вашите))?( текст| содржин| линк| порак)", "suggestion": "вметни / внеси (текстот) — залепи е само за физичко лепење", "english": "paste (text) — залепи means physically glue" }
   ],
   "connectors": {
     "avoid": {

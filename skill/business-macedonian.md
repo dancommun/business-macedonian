@@ -483,6 +483,7 @@ Marketing is where translated-English cliché is thickest. The worst offender is
 | го држи буден ноќе | вистинска мака за некого | keeps someone up at night |
 | пад од карпа | драматичен пад | falling off a cliff |
 | скршен бизнис / го крши | расипан бизнис / го докрајчува | broken business / breaks it (крши = physical only) |
+| залепи го текстот | вметни / внеси го текстот | paste the text (залепи = physically glue only) |
 
 ---
 
