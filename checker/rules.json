@@ -18,7 +18,19 @@
     { "pattern": "гради (оперативни системи|систем|производ)", "suggestion": "создава систем / производ (гради е само за физичка градба)", "english": "builds a system/product" },
     { "pattern": "ве затекнува добро|се надевам дека овој (е-)?ме(ј|и)л ве", "suggestion": "почнете директно, без ваков вовед", "english": "hope this email finds you well" },
     { "pattern": "на следно(то)? ниво", "suggestion": "да порасне / да напредува (кажи што конкретно)", "english": "to the next level" },
-    { "pattern": "ниска(та)? гранка", "suggestion": "лесен, брз резултат", "english": "low-hanging fruit" }
+    { "pattern": "ниска(та)? гранка", "suggestion": "лесен, брз резултат", "english": "low-hanging fruit" },
+    { "pattern": "(прилагодени|скроени|индивидуални) решениј[ае]|решениј[ае] по мерка", "suggestion": "услуги скроени според вас / работа прилагодена на потребите", "english": "tailored solutions" },
+    { "pattern": "(маркетинг|бизнис|дигитални|веб|креативни) решениј[ае]", "suggestion": "услуги / конкретна помош (избегувај 'решенија')", "english": "marketing/business solutions" },
+    { "pattern": "(го )?подигне[тм][ове] ?(го)? (вашиот )?бренд", "suggestion": "го зајакнете / издигнете брендот", "english": "elevate your brand" },
+    { "pattern": "отклучи[тм][ове] ?(го)? (целосниот )?потенцијал", "suggestion": "го искористите потенцијалот", "english": "unlock the potential" },
+    { "pattern": "дигитален(от)? пејза[жџ]", "suggestion": "дигитален свет", "english": "digital landscape" },
+    { "pattern": "претвор[а-џ]* (ги )?посетители[а-џ]* во клиенти|кликови во профит", "suggestion": "привлекува купувачи / посетителите да купат", "english": "turn visitors into customers" },
+    { "pattern": "длабок(и)? увид", "suggestion": "добро познавање на потребите", "english": "deep insight" },
+    { "pattern": "шопинг искуство", "suggestion": "искуство при купување / пазарување", "english": "shopping experience" },
+    { "pattern": "таргет група", "suggestion": "целна група", "english": "target group" },
+    { "pattern": "контакт детали", "suggestion": "податоци за контакт", "english": "contact details" },
+    { "pattern": "на високо ниво", "suggestion": "врвно / многу квалитетно", "english": "at a high level" },
+    { "pattern": "решенија засновани на податоци|сознанија засновани на податоци", "suggestion": "одлуки поткрепени со бројки", "english": "data-driven insights" }
   ],
   "connectors": {
     "avoid": {

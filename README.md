@@ -18,6 +18,7 @@ The guide has eight sections:
 6. **Register** — the `Вие` form, formal-but-warm business tone, numbers, evidentiality
 7. **Mandatory self-review checklist** — the "would a native say this aloud?" pass
 8. **Typography** — quotes, number formats, dashes
+9. **Marketing & sales register** — the ти-vs-Вие map, native CTAs and slogans, brand-story voice, and the "решенија" calque plague
 
 ## How it was built
 

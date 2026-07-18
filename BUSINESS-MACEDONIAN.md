@@ -48,6 +48,15 @@ These are real failures. The pattern matters more than the individual entry: **a
 | носи многу капи | работи повеќе работи истовремено | wears many hats |
 | зголеми го / скалирај | да порасне, да се прошири | scale up |
 | гради систем / производ | создава систем / производ | builds a system / product (`гради` is for physical construction only) |
+| решенија (по мерка / прилагодени) | услуги / работа скроена според вас | (tailored) solutions — marketing-speak; see Section 9.6 |
+| го подигнете вашиот бренд | го зајакнете / издигнете брендот | elevate your brand |
+| отклучите го потенцијалот | го искористите потенцијалот | unlock the potential |
+| дигитален пејзаж | дигитален свет | digital landscape |
+| претвораме посетители во клиенти | привлекуваме купувачи | turn visitors into customers |
+| шопинг искуство | искуство при купување | shopping experience |
+| таргет група | целна група | target group |
+| контакт детали | податоци за контакт | contact details |
+| на високо ниво | врвно / многу квалитетно | at a high level |
 | длабоко нурни | детален преглед / темелна анализа | deep dive |
 | победи-победи ситуација | ситуација од која сите добиваат / обострана корист | win-win situation |
 | го поместува теренот | менува сè / прекројува сè | game changer |
@@ -394,9 +403,83 @@ If a sentence is high-stakes and you cannot make it sound native, flag it as low
 
 ---
 
+## Section 9 — Marketing & Sales Register (promotional copy)
+
+Sections 1–8 are the base: plain business Macedonian. Marketing copy (websites, ads, product pages, „За нас", CTAs) keeps all of that and **adds** the rules below. It was derived from originally-written Macedonian marketing copy of local companies — insurers, retailers, FMCG brands, fuel/energy, and local agencies — deliberately excluding the group-owned telecoms, whose Macedonian is translated from English templates and reads foreign. That exclusion is the point: **most of the "marketing Macedonian" on the web is translated and is exactly what not to imitate.**
+
+### 9.1 `ти` or `Вие`? Register is chosen by sector and by slot
+
+This is the first question in any marketing copy, and Macedonian answers it in a specific pattern:
+
+- **Body copy — `Вие` or impersonal by default.** Banks, insurance, utilities, and established retail address the reader as **Вие** (`Осигурете се…`, `Изберете го вашиот пакет`). Retail chains often use no direct address at all — an impersonal company **`ние`** voice (`Работиме за вас`, `Нудиме…`).
+- **`ти` for youth / tech / education brands** throughout their copy (ed-tech, startups, creative brands): `твојата иднина`, `Пријави се`, `Однеси ме до…`.
+- **The slogan and the buttons flip to `ти` even on a `Вие` site.** This is the marketing-specific split English does not have: an insurance company writes its body in Вие but its ad line and its clickable buttons in the bare singular imperative — `Купи онлајн`, `Плати`, `Пријави штета`, `Дознај повеќе` — sitting right next to Вие prose. That is correct, not inconsistent.
+
+**The rule:** default the body to **Вие** (or impersonal `ние`) for anything except a youth/tech brand; let the **slogan and the CTA buttons** drop to bare `ти`-imperative. **Never mix ти and Вие inside the same body sentence or paragraph.**
+
+### 9.2 Frame the value as the customer's action, not "we offer"
+
+English marketing says "We offer / We provide / We deliver." Native Macedonian turns the benefit into something the customer **does**, with a reflexive imperative:
+- ✅ `Осигурете се и патувајте безгрижно.` (Insure yourself and travel carefree)
+- ✅ `Заштитете се од финансиска загуба.` · `Обезбедете си врвна здравствена услуга.`
+- ❌ `Ние нудиме осигурување кое ве штити…` (company-first, translated feel)
+
+Two more native value-prop devices:
+- **Reciprocity clause `вие X, а ние Y`:** `Ваше е да го сакате вашиот миленик, наше да се погрижиме за него.` (Yours is to love your pet, ours to care for it.)
+- **`Затоа` reason-first hinge:** establish the need first, *then* name the product — `…затоа Витаминка го создаде…`. English introduces the product first and explains after.
+
+### 9.3 Calls to action — two native shapes
+
+1. **Bare imperative in the brand's register** — the punchy one, usually `ти`: `Дознај повеќе`, `Стани член`, `Погледни пакети`, `Аплицирај`, `Пријави се`, `Одбери`, `Купи онлајн`. With Вие brands the same button pluralizes: `Дознајте повеќе`, `Станете корисник`, `Аплицирајте веднаш`.
+2. **Register-safe noun-CTA (no verb)** — banks and insurers prefer this: `Барање за понуда`, `Бесплатна консултација`, `Онлајн пријава`.
+3. **First-person-voice buttons** are idiomatic in Macedonian and have no clean English equivalent — the button speaks *as the customer*: `Доаѓам во…`, `Вложувам во иднина`, `Однеси ме до…`.
+
+A ready CTA verb bank: `дознај / дознајте повеќе` (learn more), `пријави се` (sign up), `аплицирај` (apply), `побарај понуда` (request a quote), `стани член / корисник` (become a member), `одбери го твојот пакет` (choose your plan), `склучи онлајн` (conclude online), `contactирај нѐ` → `контактирај нѐ денес` (contact us today), `резервирај` (book), `искористи ја можноста` (take the chance).
+
+### 9.4 Slogans and headlines are short, verbless, and often prepositional
+
+Native Macedonian slogans almost never use the English verb-led or "the X you deserve" noun-phrase shape. The recurring native shapes:
+- **Verbless equation / declaration:** `Домот е еден.` · `Сѐ на едно место.` · `Купувачот е наш приоритет.`
+- **Prepositional `Со [бренд] до [цел]`:** `Со Винер Осигурување до сигурен дом.`
+- **`[Бренд], [зачестеност] со вас`:** `Тинекс, секој ден со вас!` · the intimate variant `Тинекс, ти и јас.`
+- **Emotive absolute:** `Ништо не е поважно од вашето здравје.`
+- **Sound-driven caps triad:** `БРЗО, ЛЕСНО, ЕДНОСТАВНО!` · `Штедиме заедно, растеме безгрижно!`
+- **Clitic-fronted:** `Успешната приказна ЈА пишуваме со Вас.`
+
+### 9.5 Trust and brand story — the native "За нас" voice
+
+English "About us" sells competence and KPIs. Macedonian brand-story copy sells **belonging, tradition, and trust**:
+- **Romanticise the founding year:** `во далечната 1999 година`, `ги отвори вратите`, `нашата приказна започна во 1994`.
+- **The `успешна приказна` device** and generational belonging: `составен дел од животите на неколку генерации`.
+- **First / oldest / most-recognised claims with `нај-`**, backed by a year or a hard number — `првата банка… во 1944`, `најдолга традиција`, `над 500 изработени веб-страни` — not abstract adjectives.
+- **A named-CEO or founder quote**, and **local pride as a moral folk-truth:** `ако самите не го цениме нашето, нема никој да ни го цени`.
+- Gratitude is framed as **earned trust**, not a transaction: `Се радуваме што ја оправдавме Вашата доверба` — never a literal "thank you for your business".
+
+### 9.6 The marketing calque blacklist (the "решенија" plague)
+
+Marketing is where translated-English cliché is thickest. The worst offender is **`решенија`** ("solutions") used as a blanket word for services — a dead giveaway of agency-speak translated from English. The full marketing blacklist is folded into Section 1; the highest-frequency ones to watch:
+
+| ❌ Marketing calque | ✅ Natural Macedonian | English source |
+|---|---|---|
+| решенија по мерка / прилагодени решенија | услуги скроени според вас / работа прилагодена на потребите | tailored solutions |
+| маркетинг / бизнис решенија | маркетинг услуги / конкретна помош | marketing / business solutions |
+| го подигнете вашиот бренд | го зајакнете / издигнете брендот | elevate your brand |
+| отклучите го целосниот потенцијал | го искористите целиот потенцијал | unlock the full potential |
+| во денешниот дигитален пејзаж | во денешниот дигитален свет | in today's digital landscape |
+| претвораме посетители во клиенти | привлекуваме купувачи / посетителите да купат | turn visitors into customers |
+| длабок увид во потребите | добро ги познаваме потребите | deep insight into needs |
+| шопинг искуство | искуство при купување / пазарување | shopping experience |
+| таргет група | целна група | target group |
+| контакт детали | податоци за контакт | contact details |
+| 100% задоволни клиенти | целосно задоволни клиенти | 100% satisfied clients |
+| на високо ниво | врвно / многу квалитетно | at a high level |
+
+---
+
 ## Appendix — Provenance and Confidence
 
-- **Corpus:** ~860 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). 435 were read in full: ~40 in a deep literal-back-translation pass and 397 in a broad validation sweep, totalling roughly 143,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
+- **Corpus (Sections 1–8, news register):** ~860 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). 435 were read in full: ~40 in a deep literal-back-translation pass and 397 in a broad validation sweep, totalling roughly 143,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
+- **Corpus (Section 9, marketing register):** ~40 pages of originally-written Macedonian marketing copy from local insurers, retailers, FMCG brands, fuel/energy companies, and local agencies, triaged to exclude translated (group-owned telecom) copy. Smaller and page-based rather than word-counted; treat Section 9 as well-grounded but less exhaustively validated than Sections 1–8.
 - **Method:** rules were derived from the deep pass, then validated against the full broad sweep. The complete validation killed no rule and confirmed the load-bearing ones (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) across 100+ texts each — these are high-confidence. A few (scheduled-present tense, `сè додека` negation) rest on fewer examples and are marked in-text as tendencies — reliable but not exceptionless. Two rules are register-dependent and the guide flags both readings: foreign brand names may stay in Latin in contemporary copy (Section 8), and foreign institutions may take the subject slot English-style (Section 3.2).
 - **What this file deliberately excludes:** personal style preferences of any individual writer. It teaches the *language*, not a house voice. Layer your own tone on top.
 - **Contributing:** the highest-value contribution is a **caught calque** — a phrase an AI produced that no native would say — in the form `bad phrase → natural phrase → English source`, added to the Section 1 blacklist. Corrections are paid for once and should never be paid for twice.
