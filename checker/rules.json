@@ -30,7 +30,10 @@
     { "pattern": "таргет група", "suggestion": "целна група", "english": "target group" },
     { "pattern": "контакт детали", "suggestion": "податоци за контакт", "english": "contact details" },
     { "pattern": "на високо ниво", "suggestion": "врвно / многу квалитетно", "english": "at a high level" },
-    { "pattern": "решенија засновани на податоци|сознанија засновани на податоци", "suggestion": "одлуки поткрепени со бројки", "english": "data-driven insights" }
+    { "pattern": "решенија засновани на податоци|сознанија засновани на податоци", "suggestion": "одлуки поткрепени со бројки", "english": "data-driven insights" },
+    { "pattern": "само сакав да (проверам|се навратам)", "suggestion": "Дали имавте можност да го разгледате…", "english": "just checking in / circling back" },
+    { "pattern": "не двоумете се да (ме|нè) контактира[а-џ]*", "suggestion": "Ви стојам на располагање", "english": "don't hesitate to contact me" },
+    { "pattern": "драг(а)? господине|драга госпоѓо", "suggestion": "Почитуван господине / Почитувана госпоѓо", "english": "Dear Sir/Madam (over-warm)" }
   ],
   "connectors": {
     "avoid": {

@@ -20,6 +20,7 @@ The guide has eight sections:
 8. **Typography** — quotes, number formats, dashes
 9. **Marketing & sales register** — the ти-vs-Вие map, native CTAs and slogans, brand-story voice, and the "решенија" calque plague
 10. **Formal document & proposal register** — report and strategy prose: frozen salutations and sign-offs, nominalized objectives, indirect commitment, double-hedged forecasts, the dense formal-connector inventory
+11. **Email & correspondence register** — vocative salutations, the sign-off hierarchy, a functional phrase bank, and the email calques to never open with
 
 ## How it was built
 
