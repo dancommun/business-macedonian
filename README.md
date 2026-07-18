@@ -37,6 +37,16 @@ The rules were derived by reverse-engineering roughly **87,000 words of real, hu
 
 See [`EXAMPLES.md`](EXAMPLES.md) — four real content types (cold email, sales copy, LinkedIn post, report paragraph), each shown as the AI writes it and as a native writes it, with every fix explained. The foreign versions are grammatically correct; that's exactly why they're instructive.
 
+## Check your draft automatically
+
+The [`checker/`](checker/) folder has a tiny Node script that scans Macedonian text and flags known calques, bookish connectors, and English typography:
+
+```bash
+node checker/check-macedonian.mjs draft.md
+```
+
+It's a smoke detector, not a certificate — it catches *known* tells, and the read-aloud test is still the real gate. See [checker/README.md](checker/README.md).
+
 ## Scope
 
 This teaches the **language**, not any individual's house voice. It is business Macedonian (economy, entrepreneurship, management, finance). Layer your own tone on top.
