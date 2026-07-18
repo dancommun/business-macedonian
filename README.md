@@ -48,7 +48,7 @@ The [`checker/`](checker/) folder has a tiny Node script that scans Macedonian t
 node checker/check-macedonian.mjs draft.md
 ```
 
-It's a smoke detector, not a certificate — it catches *known* tells, and the read-aloud test is still the real gate. See [checker/README.md](checker/README.md).
+Prefer a browser? Open [`web/checker.html`](web/checker.html) — paste your text and see the calques and tells highlighted live, no install. It's a smoke detector, not a certificate — it catches *known* tells, and the read-aloud test is still the real gate. See [checker/README.md](checker/README.md).
 
 ## Scope
 

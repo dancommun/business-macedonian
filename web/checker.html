@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Проверка на деловен македонски · Business Macedonian checker</title>
+<style>
+  :root {
+    --bg: #fbfaf8; --panel: #ffffff; --ink: #1c1a17; --muted: #6b655d;
+    --line: #e7e2da; --accent: #7a5c3e;
+    --error: #b3261e; --error-bg: #fbe9e7;
+    --warn: #8a6d00; --warn-bg: #fdf6df;
+    --check: #2a5b8c; --check-bg: #e9f1fa;
+    --ok: #2e6b3e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17150f; --panel: #201d17; --ink: #ece7de; --muted: #9c948a;
+      --line: #332e26; --accent: #c9a06a;
+      --error: #f2857c; --error-bg: #3a1f1c;
+      --warn: #e6c657; --warn-bg: #332b12;
+      --check: #8fb8e0; --check-bg: #1a2635;
+      --ok: #8fce9e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 1000px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header h1 { font-size: 1.5rem; margin: 0 0 .25rem; letter-spacing: -.01em; }
+  header p { color: var(--muted); margin: 0 0 1.5rem; max-width: 60ch; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 760px) { .grid { grid-template-columns: 1fr; } }
+  .panel {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+    padding: 1rem; min-height: 320px;
+  }
+  .panel h2 { font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 .6rem; font-weight: 600; }
+  textarea {
+    width: 100%; min-height: 260px; resize: vertical; border: none; outline: none;
+    background: transparent; color: var(--ink); font-size: 1.02rem; line-height: 1.6;
+    font-family: "Noto Sans", -apple-system, sans-serif;
+  }
+  .counts { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: .75rem; }
+  .pill { font-size: .78rem; padding: .15rem .55rem; border-radius: 999px; font-weight: 600; }
+  .pill.e { background: var(--error-bg); color: var(--error); }
+  .pill.w { background: var(--warn-bg); color: var(--warn); }
+  .pill.c { background: var(--check-bg); color: var(--check); }
+  .pill.ok { background: transparent; color: var(--ok); border: 1px solid var(--ok); }
+  .finding {
+    border-left: 3px solid var(--line); padding: .5rem .7rem; margin-bottom: .55rem;
+    border-radius: 0 8px 8px 0; background: var(--bg);
+  }
+  .finding.e { border-left-color: var(--error); }
+  .finding.w { border-left-color: var(--warn); }
+  .finding.c { border-left-color: var(--check); }
+  .finding .sev { font-size: .68rem; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; }
+  .finding.e .sev { color: var(--error); }
+  .finding.w .sev { color: var(--warn); }
+  .finding.c .sev { color: var(--check); }
+  .finding .hit { font-weight: 600; }
+  .finding .msg { font-size: .92rem; color: var(--ink); }
+  .finding .fix { font-size: .9rem; color: var(--muted); }
+  .finding .fix b { color: var(--ok); font-weight: 600; }
+  .empty { color: var(--muted); font-size: .95rem; padding: 1rem 0; }
+  mark {
+    background: var(--error-bg); color: var(--error); border-radius: 3px;
+    padding: 0 .1em; box-shadow: inset 0 -2px 0 var(--error);
+  }
+  mark.w { background: var(--warn-bg); color: var(--warn); box-shadow: inset 0 -2px 0 var(--warn); }
+  mark.c { background: var(--check-bg); color: var(--check); box-shadow: inset 0 -2px 0 var(--check); }
+  #preview { font-size: 1.02rem; line-height: 1.65; white-space: pre-wrap; word-break: break-word; }
+  footer { margin-top: 2rem; color: var(--muted); font-size: .88rem; border-top: 1px solid var(--line); padding-top: 1rem; }
+  footer a { color: var(--accent); }
+  .note { font-size: .85rem; color: var(--muted); background: var(--panel); border: 1px dashed var(--line); border-radius: 10px; padding: .7rem .9rem; margin-top: 1rem; }
+  .try { font-size: .82rem; color: var(--accent); cursor: pointer; text-decoration: underline; background: none; border: none; padding: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Проверка на деловен македонски</h1>
+    <p>Paste Macedonian business text below. This flags the known "foreigner Macedonian" tells — calqued idioms, bookish connectors, and English typography — from the <a href="https://github.com/dancommun/business-macedonian" style="color:var(--accent)">Business Macedonian</a> guide. It runs entirely in your browser; nothing is sent anywhere.</p>
+    <button class="try" id="tryBtn">↳ Load an example</button>
+  </header>
+
+  <div class="grid">
+    <div class="panel">
+      <h2>Вашиот текст</h2>
+      <textarea id="input" placeholder="Залепете го тука вашиот текст…" spellcheck="false"></textarea>
+    </div>
+    <div class="panel">
+      <h2>Наоди · Findings</h2>
+      <div class="counts" id="counts"></div>
+      <div id="findings"></div>
+    </div>
+  </div>
+
+  <div class="panel" style="min-height:auto; margin-top:1rem;">
+    <h2>Означен текст · Highlighted</h2>
+    <div id="preview" class="empty"></div>
+  </div>
+
+  <div class="note">
+    <b>Honest limit:</b> this is a pattern checker, not a grammar engine. It catches the tells it has been taught (known calques, over-used connectors, typography) — it cannot see a missing clitic, a wrong verb tense, or a calque it hasn't learned. A clean result means "no <i>known</i> tells", not "certified native". The real gate is reading it aloud: <i>would a Macedonian actually say this?</i>
+  </div>
+
+  <footer>
+    Part of <a href="https://github.com/dancommun/business-macedonian">Business Macedonian for AI</a> · CC BY 4.0 ·
+    Rules mirror <code>checker/rules.json</code>. Found a calque this misses? <a href="https://github.com/dancommun/business-macedonian/issues/new?template=calque-report.yml">Report it.</a>
+  </footer>
+</div>
+
+<script>
+const RULES = {"calques":[{"pattern":"одговар[а-џ]* од стомак","suggestion":"одговорете спонтано и искрено","english":"answer from the gut"},{"pattern":"без вас во просторијата","suggestion":"и кога вас ве нема","english":"without you in the room"},{"pattern":"на кра(јот|ј) на денот","suggestion":"на крајот / конечно / во суштина","english":"at the end of the day"},{"pattern":"надвор од кутијата","suggestion":"поинаку / креативно","english":"think outside the box"},{"pattern":"допр[а-џ]* ја базата","suggestion":"да се слушнеме / да се јавиме","english":"touch base"},{"pattern":"подвиж[а-џ]* ја иглата","suggestion":"да направи вистинска разлика","english":"move the needle"},{"pattern":"скокн[а-џ]* на (брз )?повик","suggestion":"да се слушнеме / да се јавиме","english":"jump on a call"},{"pattern":"на иста(та)? страница","suggestion":"се согласуваме / се разбираме","english":"on the same page"},{"pattern":"таму каде што ти е устата","suggestion":"да го поткрепи со дела","english":"put your money where your mouth is"},{"pattern":"погоди го подот","suggestion":"да почне веднаш, полн гас","english":"hit the ground running"},{"pattern":"нос[а-џ]* многу капи","suggestion":"работи повеќе работи истовремено","english":"wears many hats"},{"pattern":"длабоко нурн[а-џ]*|длабоко нуркање","suggestion":"детален преглед / темелна анализа","english":"deep dive"},{"pattern":"победи-победи","suggestion":"ситуација од која сите добиваат / обострана корист","english":"win-win"},{"pattern":"го поместува теренот|менувач на играта","suggestion":"менува сè / прекројува сè","english":"game changer"},{"pattern":"гради (оперативни системи|систем|производ)","suggestion":"создава систем / производ (гради е само за физичка градба)","english":"builds a system/product"},{"pattern":"ве затекнува добро|се надевам дека овој (е-)?ме(ј|и)л ве","suggestion":"почнете директно, без ваков вовед","english":"hope this email finds you well"},{"pattern":"на следно(то)? ниво","suggestion":"да порасне / да напредува (кажи што конкретно)","english":"to the next level"},{"pattern":"ниска(та)? гранка","suggestion":"лесен, брз резултат","english":"low-hanging fruit"},{"pattern":"(прилагодени|скроени|индивидуални) решениј[ае]|решениј[ае] по мерка","suggestion":"услуги скроени според вас / работа прилагодена на потребите","english":"tailored solutions"},{"pattern":"(маркетинг|бизнис|дигитални|веб|креативни) решениј[ае]","suggestion":"услуги / конкретна помош (избегувај 'решенија')","english":"marketing/business solutions"},{"pattern":"(го )?подигне[тм][ове] ?(го)? (вашиот )?бренд","suggestion":"го зајакнете / издигнете брендот","english":"elevate your brand"},{"pattern":"отклучи[тм][ове] ?(го)? (целосниот )?потенцијал","suggestion":"го искористите потенцијалот","english":"unlock the potential"},{"pattern":"дигитален(от)? пејза[жџ]","suggestion":"дигитален свет","english":"digital landscape"},{"pattern":"претвор[а-џ]* (ги )?посетители[а-џ]* во клиенти|кликови во профит","suggestion":"привлекува купувачи / посетителите да купат","english":"turn visitors into customers"},{"pattern":"длабок(и)? увид","suggestion":"добро познавање на потребите","english":"deep insight"},{"pattern":"шопинг искуство","suggestion":"искуство при купување / пазарување","english":"shopping experience"},{"pattern":"таргет група","suggestion":"целна група","english":"target group"},{"pattern":"контакт детали","suggestion":"податоци за контакт","english":"contact details"},{"pattern":"на високо ниво","suggestion":"врвно / многу квалитетно","english":"at a high level"},{"pattern":"решенија засновани на податоци|сознанија засновани на податоци","suggestion":"одлуки поткрепени со бројки","english":"data-driven insights"},{"pattern":"само сакав да (проверам|се навратам)","suggestion":"Дали имавте можност да го разгледате…","english":"just checking in / circling back"},{"pattern":"не двоумете се да (ме|нè) контактира[а-џ]*","suggestion":"Ви стојам на располагање","english":"don't hesitate to contact me"},{"pattern":"драг(а)? господине|драга госпоѓо","suggestion":"Почитуван господине / Почитувана госпоѓо","english":"Dear Sir/Madam (over-warm)"}],"connectors":{"avoid":{"note":"Near-absent in real Macedonian business prose. Flag on any use.","words":["следствено","всушност","воедно","притоа","освен тоа","имајќи предвид"]},"ration":{"note":"Formal/column register only. Flag if used more than the budget (per ~400 words).","budgetPer400Words":1,"words":["меѓутоа","имено","токму"]}}};
+const EXAMPLE = "Се надевам дека овој меил ве наоѓа добро. На крајот на денот, нашата агенција нуди прилагодени решенија за да го подигнете вашиот бренд на високо ниво. Следствено, всушност, ние ги претвораме посетителите во клиенти. Пазарот падна на 23.5%, меѓутоа растеме. \"Очекуваме раст\", изјави тој.";
+
+const input = document.getElementById('input');
+const findingsEl = document.getElementById('findings');
+const countsEl = document.getElementById('counts');
+const previewEl = document.getElementById('preview');
+
+function allMatches(text, pattern, flags) {
+  return Array.from(text.matchAll(new RegExp(pattern, flags)));
+}
+
+function scan(text) {
+  const found = []; // {sev, start, end, hit, msg, fix}
+  const wordCount = (text.match(/[Ѐ-ӿ]+/g) || []).length;
+
+  for (const c of RULES.calques) {
+    for (const m of allMatches(text, c.pattern, 'gi')) {
+      found.push({ sev: 'e', start: m.index, end: m.index + m[0].length, hit: m[0],
+        msg: 'Calque (' + c.english + ')', fix: c.suggestion });
+    }
+  }
+  for (const w of RULES.connectors.avoid.words) {
+    for (const m of allMatches(text, '(^|[^\\u0400-\\u04FF])(' + w + ')([^\\u0400-\\u04FF]|$)', 'gi')) {
+      const s = m.index + m[1].length;
+      found.push({ sev: 'w', start: s, end: s + w.length, hit: w,
+        msg: 'Bookish connector, near-absent in real prose', fix: 'а / но / затоа / доколку or a full stop' });
+    }
+  }
+  const budget = Math.max(1, Math.round(wordCount / 400));
+  for (const w of RULES.connectors.ration.words) {
+    const hits = allMatches(text, '(^|[^\\u0400-\\u04FF])(' + w + ')([^\\u0400-\\u04FF]|$)', 'gi').map(m => m.index + m[1].length);
+    if (hits.length > budget) {
+      for (const s of hits) found.push({ sev: 'w', start: s, end: s + w.length, hit: w,
+        msg: 'Used ' + hits.length + '× (budget ≈ ' + budget + ') — formal/column register only', fix: 'thin it out' });
+    }
+  }
+  for (const m of allMatches(text, '"', 'g')) found.push({ sev: 'e', start: m.index, end: m.index + 1, hit: '"', msg: 'Straight quote', fix: 'use „ … “ (low-open, high-close)' });
+  for (const m of allMatches(text, '[\\u2014\\u2013]', 'g')) found.push({ sev: 'w', start: m.index, end: m.index + 1, hit: m[0], msg: 'Em/en-dash', fix: 'prefer a plain hyphen -' });
+  for (const m of allMatches(text, '\\d\\.\\d{1,2}(?!\\d)', 'g')) found.push({ sev: 'c', start: m.index, end: m.index + m[0].length, hit: m[0], msg: 'Possible decimal point', fix: 'Macedonian uses a comma (23,5)' });
+  for (const m of allMatches(text, '\\d,\\d{3}(?!\\d)', 'g')) found.push({ sev: 'c', start: m.index, end: m.index + m[0].length, hit: m[0], msg: 'Possible English thousands comma', fix: 'Macedonian uses a dot (15.868)' });
+
+  found.sort((a, b) => a.start - b.start || (a.sev === 'e' ? -1 : 1));
+  return found;
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+function clear(node) { while (node.firstChild) node.removeChild(node.firstChild); }
+
+const LABEL = { e: 'error', w: 'warning', c: 'check' };
+
+function render() {
+  const text = input.value;
+  clear(countsEl); clear(findingsEl); clear(previewEl);
+
+  if (!text.trim()) {
+    findingsEl.appendChild(el('div', 'empty', 'Findings will appear here as you type.'));
+    previewEl.className = 'empty';
+    previewEl.appendChild(document.createTextNode('Highlighted text appears here.'));
+    return;
+  }
+
+  const found = scan(text);
+  const n = { e: 0, w: 0, c: 0 };
+  for (const f of found) n[f.sev]++;
+
+  if (n.e) countsEl.appendChild(el('span', 'pill e', n.e + ' error'));
+  if (n.w) countsEl.appendChild(el('span', 'pill w', n.w + ' warning'));
+  if (n.c) countsEl.appendChild(el('span', 'pill c', n.c + ' check'));
+  if (found.length === 0) countsEl.appendChild(el('span', 'pill ok', '✓ no known tells'));
+
+  if (found.length === 0) {
+    findingsEl.appendChild(el('div', 'empty', '✓ No known tells found. Still read it aloud — would a native say it?'));
+  } else {
+    for (const f of found) {
+      const box = el('div', 'finding ' + f.sev);
+      const head = el('div');
+      head.appendChild(el('span', 'sev', LABEL[f.sev]));
+      head.appendChild(document.createTextNode(' · '));
+      head.appendChild(el('span', 'hit', '„' + f.hit + '“'));
+      box.appendChild(head);
+      box.appendChild(el('div', 'msg', f.msg));
+      const fix = el('div', 'fix');
+      fix.appendChild(document.createTextNode('→ '));
+      fix.appendChild(el('b', null, f.fix));
+      box.appendChild(fix);
+      findingsEl.appendChild(box);
+    }
+  }
+
+  // highlighted preview via DOM nodes (non-overlapping, first-wins)
+  previewEl.className = '';
+  let cursor = 0, lastEnd = -1;
+  const nonOverlap = [];
+  for (const f of found) { if (f.start >= lastEnd) { nonOverlap.push(f); lastEnd = f.end; } }
+  for (const f of nonOverlap) {
+    if (f.start > cursor) previewEl.appendChild(document.createTextNode(text.slice(cursor, f.start)));
+    const mk = el('mark', f.sev === 'e' ? null : f.sev, text.slice(f.start, f.end));
+    previewEl.appendChild(mk);
+    cursor = f.end;
+  }
+  if (cursor < text.length) previewEl.appendChild(document.createTextNode(text.slice(cursor)));
+}
+
+input.addEventListener('input', render);
+document.getElementById('tryBtn').addEventListener('click', () => { input.value = EXAMPLE; render(); });
+render();
+</script>
+</body>
+</html>
