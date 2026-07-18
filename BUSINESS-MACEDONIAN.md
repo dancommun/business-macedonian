@@ -165,42 +165,44 @@ In survey/data pieces, **striking findings come first**, methodology follows via
 
 ## Section 4 — Connector Lexicon (frequency-based)
 
-**The most important finding in this whole file after the anti-calque law:** the "sophisticated" connectors an AI reaches for are almost **absent** from real Macedonian business prose. In ~87,000 words of native text:
+**The most important finding in this whole file after the anti-calque law:** the "sophisticated" connectors an AI reaches for are almost **absent** from real Macedonian business prose. In ~143,000 words of native text:
 
-| Connector | AI instinct | Reality (counts across the corpus) | Verdict |
+| Connector | AI instinct | Reality (count in ~143k words) | Verdict |
 |---|---|---|---|
-| следствено | "consequently" | **0** | Never write it. |
-| всушност | "in fact / actually" | ~6 | Almost never. |
-| воедно | "at the same time" | ~3 | Almost never. |
-| притоа | "thereby" | ~7 | Rare; mid-clause only. |
-| освен тоа | "besides" | ~3 | Almost never. |
-| имајќи предвид | "bearing in mind" | ~4 | Rare. |
-| имено | "namely" | ~13 | Column register only. |
-| меѓутоа | "however" | ~14, mostly one register | Heavyweight; rare. |
-| токму | "precisely" | ~19 | Column/interview only, before the stressed word. |
+| следствено | "consequently" | **4** | Never write it. |
+| освен тоа | "besides" | 7 | Almost never. |
+| имајќи предвид | "bearing in mind" | 6 | Rare. |
+| всушност | "in fact / actually" | 13 | Almost never. |
+| воедно | "at the same time" | 14 | Almost never. |
+| имено | "namely" | 19 | Column register only. |
+| притоа | "thereby" | 24 | Rare; mid-clause only. |
+| меѓутоа | "however" | 14 | Heavyweight; rare. |
+| токму | "precisely" | 35 | Column/interview only, before the stressed word. |
 
-**What natives actually connect with** (counts, same corpus):
+For scale: the plainest workhorse below, `а`, appears **615** times and `но` **352** — the "fancy" connectors barely register.
+
+**What natives actually connect with** (counts across the same ~143k words):
 
 | Connector | Count | Job |
 |---|---|---|
-| и | 2600+ | "and"; also the additive-emphasis particle ("зголемување има **и** кај капиталните расходи") |
-| дека | 600+ | "that" (complementizer) |
-| а | ~400 | **the workhorse soft contrast** — see below |
-| но | ~240 | ordinary "but", freely sentence-initial (`Но,`) |
-| според | ~150 | "according to" |
-| само | ~120 | "only" (also frames small figures) |
-| како и | ~100 | "as well as" |
-| додека | ~85 | "while" (contrast of two figures/groups in one sentence) |
-| односно | ~76 | "that is / i.e." — glues a reformulation into the same sentence |
-| поради | ~60 | "because of" + **noun phrase** (not a `поради тоа што` clause) |
-| ако | ~60 | "if" (colloquial / quoted speech) |
-| за да | ~60 | "in order to" |
-| бидејќи | ~53 | "because" (clause) |
-| доколку | ~39 | "if" (formal/business register — prefer over `ако` in your prose) |
-| дури | ~35 | "even / as much as" — hugs a striking numeral |
-| сепак | ~33 | "nevertheless" — genuine concession, natively paired with a preceding `иако` |
-| пак | ~31 | second-position "for its part / meanwhile" |
-| при што / со што | ~45 | "whereby / with which" — folds a consequence into the sentence |
+| и | 4400+ | "and"; also the additive-emphasis particle ("зголемување има **и** кај капиталните расходи") |
+| дека | 1000+ | "that" (complementizer) |
+| а | ~615 | **the workhorse soft contrast** — see below |
+| но | ~350 | ordinary "but", freely sentence-initial (`Но,`) |
+| според | ~240 | "according to" |
+| само | ~200 | "only" (also frames small figures) |
+| како и | ~170 | "as well as" |
+| за да | ~160 | "in order to" |
+| додека | ~130 | "while" (contrast of two figures/groups in one sentence) |
+| односно | ~130 | "that is / i.e." — glues a reformulation into the same sentence |
+| поради | ~120 | "because of" + **noun phrase** (not a `поради тоа што` clause) |
+| ако | ~90 | "if" (colloquial / quoted speech) |
+| бидејќи | ~70 | "because" (clause) |
+| доколку | ~66 | "if" (formal/business register — prefer over `ако` in your prose) |
+| дури | ~60 | "even / as much as" — hugs a striking numeral |
+| пак | ~57 | second-position "for its part / meanwhile" |
+| сепак | ~55 | "nevertheless" — genuine concession, natively paired with a preceding `иако` |
+| при што / со што | ~40+ | "whereby / with which" — folds a consequence into the sentence |
 
 ### The contrast scale (get this right and half the foreignness disappears)
 1. **`, а`** — soft, in-sentence contrast and comparison. This is the default. `Европа оди нагоре, а Балканот тапка во место.` In a comparison the second half **drops the verb** and ends on the figure: `во 2005 изнесувале 8, а годинава 20 милиони.`
@@ -394,8 +396,8 @@ If a sentence is high-stakes and you cannot make it sound native, flag it as low
 
 ## Appendix — Provenance and Confidence
 
-- **Corpus:** ~720 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). ~278 were read in full: ~40 in a deep literal-back-translation pass and ~240 in a broad validation sweep, totalling roughly 87,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
-- **Method:** rules were derived from the deep pass, then validated or narrowed against the broad sweep. Rules confirmed across many texts (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) are high-confidence. A few (scheduled-present tense, `сè додека` negation, suffixed temporals) rest on fewer examples and are marked in-text as tendencies — treat them as reliable but not exceptionless.
+- **Corpus:** ~860 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). 435 were read in full: ~40 in a deep literal-back-translation pass and 397 in a broad validation sweep, totalling roughly 143,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
+- **Method:** rules were derived from the deep pass, then validated against the full broad sweep. The complete validation killed no rule and confirmed the load-bearing ones (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) across 100+ texts each — these are high-confidence. A few (scheduled-present tense, `сè додека` negation) rest on fewer examples and are marked in-text as tendencies — reliable but not exceptionless. Two rules are register-dependent and the guide flags both readings: foreign brand names may stay in Latin in contemporary copy (Section 8), and foreign institutions may take the subject slot English-style (Section 3.2).
 - **What this file deliberately excludes:** personal style preferences of any individual writer. It teaches the *language*, not a house voice. Layer your own tone on top.
 - **Contributing:** the highest-value contribution is a **caught calque** — a phrase an AI produced that no native would say — in the form `bad phrase → natural phrase → English source`, added to the Section 1 blacklist. Corrections are paid for once and should never be paid for twice.
 
