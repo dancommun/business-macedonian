@@ -476,10 +476,78 @@ Marketing is where translated-English cliché is thickest. The worst offender is
 
 ---
 
+## Section 10 — Formal Document & Proposal Register (reports, strategies, proposals)
+
+This is the register of annual reports, strategies, official proposals, and formal business documents — the most elevated of the three. It keeps the base rules and adds a heavier, more ritualised layer. Derived from Macedonian bank annual reports, central-bank analyses, and ministry strategy documents. Use it for a formal proposal or report; do **not** use it for an email or a web page (those are lighter — see Sections 9 and 11).
+
+### 10.1 Formal openings and closings are frozen rituals — do not calque the English ones
+
+- **Salutation:** a bare plural vocative on its own line, ending in a **comma** (not a colon), audiences listed most-formal-first: `Почитувани акционери, деловни партнери и клиенти,`. A lone `Почитувани,` resets into a new part mid-document.
+- **Never calque "Dear X":** `Драги акционери` is wrong. And there is no "I am pleased to present" opener — the CEO letter **opens by setting the year's macro scene** before any first person: `Во текот на 2024 година, економијата се соочи со значителни предизвици…`.
+- **Sign-off:** `Со почит,` then the **title before the name** — `Со почит, Главен извршен директор, [Име]`. The reverse (name then title) is the English stack and reads translated.
+- **Closing move:** not a valediction but a **thanks-cascade** to stakeholders and/or a rally on shared values: `…им се заблагодарувам за укажаната доверба`.
+
+### 10.2 Objectives and measures are nominalized — verbs become verbal nouns
+
+The backbone of formal Macedonian is the **-ње / -ција verbal noun**. English action verbs collapse into nouns:
+- ✅ Objective headings are bare verbal nouns: `Цел 1. Обезбедување на…`, `Цел 2. Развој на…`, `Одржување на стабилноста`.
+- ✅ The fixed goal frame: `Целта на оваа мерка е да се обезбеди…` or `Целта на овој столб е унапредување на…`.
+- ✅ Purpose is `со цел / во насока на + verbal noun`, **not** a `да`-clause: `со цел зголемување на конкурентноста` (not `за да се зголеми конкурентноста`).
+- Core lexicon to reach for: `спроведување, реализација, унапредување, остварување, имплементација, обезбедување, зголемување, одржување`.
+
+English "in order to increase competitiveness" → Macedonian `со цел зголемување на конкурентноста`. This nominal density *is* the formal register; plain verbs read as too casual for a strategy document.
+
+### 10.3 Commitment is stated indirectly — continuation, not a fresh promise
+
+The explicit "we commit" (`се обврзуваме`) is almost absent. Institutions signal commitment three native ways:
+- **Continuation:** `ќе продолжи со + verbal noun`, and the adverbs `и натаму / и понатаму` (carry most of English "will continue to"): `Народната банка и натаму ќе спроведува…`.
+- **Standing disposition:** `останува посветена на…`, `останува подготвена да преземе…`.
+- **Agentless analytic future:** where English says "we will create X", formal Macedonian says `ќе се создаде X` — the actor suppressed by reflexive `се`.
+- The institution is named in the **third person even when it authored the document** (`Владата ќе ги преиспита…`, `Банката ќе продолжи…`) — this projects official-record authority, not the English first-person "we will."
+
+### 10.4 Forecasts and assessments are double-hedged and agentless
+
+A bare point forecast reads as non-institutional. The native formal forecast stacks:
+1. a **circumstance-first backdrop**, front-loaded: `Во услови на зголемена неизвесност, …` (not trailed at the end as in English);
+2. an **impersonal reflexive projection verb**: `се очекува / се оценува / се предвидува дека…` — never "we expect";
+3. often a **trailing risk qualifier**: `…придружено со ризици`, and a concessive pivot `И покрај…, сепак…`.
+
+`Сепак,` sentence-initial is the single most common cohesion move in this register (a genuine concession, unlike its rarity in news).
+
+### 10.5 Formal connectors — a dense, repetitive, fixed inventory
+
+Formal Macedonian collapses English's variety of linking phrases onto a small set of high-frequency multiword nominal connectors, and **repeats them without apology** (repetition is correct here, not stylistic weakness). By real frequency in the corpus:
+
+| Connector | ~count | Job |
+|---|---|---|
+| во однос на | 900+ | regarding / compared with |
+| согласно / во согласност со | 1100+ | pursuant to / in accordance with (near-mandatory when citing a law, strategy, or rule) |
+| во рамките на / во рамки на | 600+ | within (the framework of) |
+| со цел | 440 | in order to (+ verbal noun) |
+| во услови на | 360 | amid / under conditions of (the default backdrop adverbial) |
+| во насока на | 206 | toward / in the direction of |
+| врз основа на | 177 | on the basis of |
+| во текот на | 176 | during / in the course of |
+| заради | 147 | for the purpose of / owing to |
+| имајќи (го/ги) предвид | ~30 | bearing in mind (participial cohesion) |
+
+Sentence-initial single-word glue where English starts with "Therefore/Also": `Оттука,` `Воедно,` `Притоа,` `Во таа насока,`. Note that `притоа` — flagged as bookish and near-absent in the *news* register (Section 4) — is legitimately at home here in formal documents. **Register decides:** the same word that is a foreigner-tell in a news sentence is correct in a strategy paragraph.
+
+### 10.6 Voice splits by section
+
+One formal document runs two voices, and switching between them is correct:
+- **The signed foreword** (CEO/governor/minister address) uses **first person**: `се стремиме`, `уверен сум дека`, `остваривме`.
+- **The body** (strategy, analysis, measures) switches to **impersonal reflexive**: `се предвидува`, `ќе се обезбеди`, `се оценува`.
+
+Do not carry the first-person foreword voice into the analytical body, or the body's agentless voice into the personal address.
+
+---
+
 ## Appendix — Provenance and Confidence
 
 - **Corpus (Sections 1–8, news register):** ~860 business/economy articles harvested from eight Macedonian outlets (news agencies, public and commercial broadcasters, and a dedicated finance portal). 435 were read in full: ~40 in a deep literal-back-translation pass and 397 in a broad validation sweep, totalling roughly 143,000 words of analysed native prose. The bulk was published before 2023 (pre-AI, guaranteed human), with a contemporary layer for current vocabulary.
 - **Corpus (Section 9, marketing register):** ~40 pages of originally-written Macedonian marketing copy from local insurers, retailers, FMCG brands, fuel/energy companies, and local agencies, triaged to exclude translated (group-owned telecom) copy. Smaller and page-based rather than word-counted; treat Section 9 as well-grounded but less exhaustively validated than Sections 1–8.
+- **Corpus (Section 10, formal-document register):** ~24 Macedonian formal documents — bank annual-report CEO letters, National Bank analyses and financial-stability reports, and government/ministry strategy and program documents — read for their narrative prose (tables excluded). Institutional Macedonian is originally-written, so translation risk is low; the connector frequencies cited are real counts from these documents.
 - **Method:** rules were derived from the deep pass, then validated against the full broad sweep. The complete validation killed no rule and confirmed the load-bearing ones (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) across 100+ texts each — these are high-confidence. A few (scheduled-present tense, `сè додека` negation) rest on fewer examples and are marked in-text as tendencies — reliable but not exceptionless. Two rules are register-dependent and the guide flags both readings: foreign brand names may stay in Latin in contemporary copy (Section 8), and foreign institutions may take the subject slot English-style (Section 3.2).
 - **What this file deliberately excludes:** personal style preferences of any individual writer. It teaches the *language*, not a house voice. Layer your own tone on top.
 - **Contributing:** the highest-value contribution is a **caught calque** — a phrase an AI produced that no native would say — in the form `bad phrase → natural phrase → English source`, added to the Section 1 blacklist. Corrections are paid for once and should never be paid for twice.

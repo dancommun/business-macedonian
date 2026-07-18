@@ -19,6 +19,7 @@ The guide has eight sections:
 7. **Mandatory self-review checklist** — the "would a native say this aloud?" pass
 8. **Typography** — quotes, number formats, dashes
 9. **Marketing & sales register** — the ти-vs-Вие map, native CTAs and slogans, brand-story voice, and the "решенија" calque plague
+10. **Formal document & proposal register** — report and strategy prose: frozen salutations and sign-offs, nominalized objectives, indirect commitment, double-hedged forecasts, the dense formal-connector inventory
 
 ## How it was built
 
