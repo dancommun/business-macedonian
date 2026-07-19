@@ -332,7 +332,22 @@ Natural collocations harvested from the corpus. Use them to replace stiff litera
 - станува збор за / се работи за — it is a matter of
 - да вродат со плод — to bear fruit (native idiom — safe to use)
 
-*(This bank is a starting set of ~110 entries. Grow it from your own reading, never from literal English translation.)*
+### Founder / SME-owner prose (pains and operations)
+Harvested 2026 from originally-written Macedonian founder-facing prose (a business-diagnostics consultancy's organic posts and a business-mentor's book + funnel copy — see Appendix). These are attested native collocations for talking to business owners about their problems:
+- гаси пожари / секојдневно гасење пожари — firefighting, living in urgent-problem mode
+- тесно грло — bottleneck (also figurative: „тесното грло во сопствената фирма")
+- заглавен во оператива — stuck in day-to-day operations
+- работи / одлучува по чувство — runs things by feel (its native opposite: по бројки)
+- одново измислува топла вода — reinvents the wheel
+- се потпира на поединци, не на систем — rests on individuals, not on a system
+- знаењето е во главите (на луѓето) — the knowledge lives in people's heads
+- период на снаоѓање — a new hire's finding-your-feet period; also не се снаоѓа — isn't coping
+- си заминуваат луѓе — people keep leaving (the native phrasing for churn)
+- сè зависи од еден човек — everything depends on one person
+- горе-долу во ред — more or less fine (the owner's default self-assessment)
+- полни раце работа, празна сметка — full order book, empty account (pattern, not fixed idiom: pair a busy-image with a money-image)
+
+*(This bank is a starting set of ~120 entries. Grow it from your own reading, never from literal English translation.)*
 
 ---
 
@@ -400,6 +415,22 @@ If a sentence is high-stakes and you cannot make it sound native, flag it as low
 - **Dash:** the spaced hyphen `-` is the workhorse — headline splits, appended specifics, and quote attribution (`„…" - велат од Министерството`). In running content prefer a plain hyphen; avoid the em-dash.
 - **Dates:** `ДД.ММ.ГГГГ` (`05.02.2026`) or `Февруари 2026` for month-level.
 - **Time:** 24-hour, `14:30`.
+
+### Native-corpus spelling traps (read them, never reproduce them)
+
+Commercially successful native marketing prose often ships nonstandard spelling — it demonstrably doesn't hurt those brands, but an AI must not learn it from the corpus. The recurring ones (2026 SME-marketing corpus):
+
+| ❌ Seen in native copy | ✅ Standard | Note |
+|---|---|---|
+| превзема | презема | Serbian-influenced prefix |
+| чуствува / чуство | чувствува / чувство | dropped в |
+| незнам / неможе / неможат | не знам / не може / не можат | negation written separately |
+| сваќа | сфаќа | с/ф confusion |
+| постајано | постојано | vowel slip |
+
+Also a precision trap, not a spelling one: **„забавува"** is ambiguous ("slows down" but primarily "entertains/amuses"). In headlines about a business slowing down, prefer **„успорува"** (unambiguous) or the colloquial **„кочи"** (attested: „кочница за раст").
+
+Clean standard orthography is cheap differentiation — the corpus proves readers tolerate errors, not that errors help.
 
 ---
 
@@ -484,6 +515,17 @@ Marketing is where translated-English cliché is thickest. The worst offender is
 | пад од карпа | драматичен пад | falling off a cliff |
 | скршен бизнис / го крши | расипан бизнис / го докрајчува | broken business / breaks it (крши = physical only) |
 | залепи го текстот | вметни / внеси го текстот | paste the text (залепи = physically glue only) |
+
+### 9.7 Paid-ad units (observed 2026, MK SME-marketing corpus)
+
+Two attested shapes for the ad text itself, both live and funded in the MK market:
+1. **Long-copy static:** hook question in the first line (mobile truncates ~125 characters), one solid paragraph, short benefit list, one CTA.
+2. **One-sentence text + carousel/video storytelling:** the primary text is a single benefit sentence; the cards or the video carry the whole arc (scene → reframe → promise → CTA), one idea per card.
+
+Register notes for ads specifically:
+- **Ad headlines run as short `ти`-questions even for brands whose site body is `Вие`** — the Section 9.1 slogan-and-buttons rule extends to ad display copy. The seam between a `ти` ad and a `Вие` landing page is native, not an error.
+- **Consultative B2B ads run clean — zero emoji, zero exclamation stacking** — in deliberate contrast with product-retail ads, which are saturated with both. In the consultative niche, restraint reads as competence.
+- The strongest observed engagement device is the **closing self-diagnostic question** (see 12.7), also usable as an ad hook.
 
 ---
 
@@ -680,6 +722,22 @@ The English "What do you think? Comment below 👇 / Follow for more / Tag a fri
 | да го подигнеме на следно ниво | да го подобриме / да чекориме понатаму | take it to the next level |
 | Сподели ги твоите мисли | Кажи што мислиш (only if truly conversational) | Share your thoughts |
 
+### 12.7 The founder-post formula (SME-consulting corpus, 2026)
+
+Macedonian consulting/coaching brands writing to business owners converge on one five-beat post structure — attested across dozens of posts from independent authors, so treat it as the genre's native shape:
+
+1. **Cold open: a 2–4 word third-person mini-scene, stated as fact.** `Продажбата зависи од еден човек.` No greeting, no question, no "did you know" — the reader recognizes himself by the second beat. (This is the business-flavored version of the 12.1 reader-inside-the-pain hook.)
+2. **The `не X, туку Y` reframe** — symptom recast as cause: `Не затоа што луѓето биле лоши. Туку затоа што никој не им кажал што се очекува.` The 12.2 antithesis is not just present here; it is the engine of every post.
+3. **Own-number authority:** one concrete figure from the author's own practice or data (`Од 200 сопственици со кои работевме…`). Native business social copy cites its own experience, never external studies.
+4. **A one-line verdict aphorism** — quotable, two short sentences or one: `Парите се симптом. Системите се причина.`
+5. **Close on ONE second-person self-diagnostic question, no CTA:** `Дали твојот бизнис може да работи еден месец без тебе?` The question does the selling; a link appears in only ~1 post in 8.
+
+Supporting devices from the same corpus:
+- **Register:** consultants address owners with `ти` throughout — peer-coach intimacy, even for serious advice. (Extends 12.4: the consulting-to-founders niche sits firmly on the `ти` side.)
+- **The checklist card:** `N знаци дека…` + 3–4 recognizable symptoms — self-diagnosis in visual form.
+- **Testimonials are confession-quotes with concrete numbers**, not praise: a client's own sentence (`„Мислев дека ќе добијам организација, а добив…"`) beats any adjective.
+- **Symptom bullet-cascades** the reader ticks through silently.
+
 ---
 
 ## Appendix — Provenance and Confidence
@@ -689,6 +747,7 @@ The English "What do you think? Comment below 👇 / Follow for more / Tag a fri
 - **Corpus (Section 10, formal-document register):** ~24 Macedonian formal documents — bank annual-report CEO letters, National Bank analyses and financial-stability reports, and government/ministry strategy and program documents — read for their narrative prose (tables excluded). Institutional Macedonian is originally-written, so translation risk is low; the connector frequencies cited are real counts from these documents.
 - **Corpus (Section 11, email register):** codified from Macedonian business-correspondence and email-etiquette conventions, cross-checked against the Section 10 salutation/sign-off findings. The salutation, sign-off, vocative, and capitalization rules are well-attested; the functional phrase bank is reliable but was not drawn from a single authoritative corpus — a native ear is the final gate for high-stakes wording.
 - **Corpus (Section 12, social/short-form register):** ~43 pieces — Macedonian thought-leadership/opinion essays (largely one deep pre-2023 native archive) and short-form copy from local brands. The thought-leadership rules are well-grounded but lean on a single prolific author's voice; the brand short-form rules span several local brands. Treat as reliable but less broadly sampled than the news register.
+- **Corpus (2026 SME-marketing additions — Sections 5 founder bank, 8 spelling traps, 9.7, 12.7):** originally-written Macedonian founder-facing copy from two independent local consulting brands: ~35 organic Facebook posts from a business-diagnostics consultancy, plus a business mentor's 28-page free book, his paid-ad set (statics, carousels, talking-head videos), and his long-form landing page. All non-translated native prose aimed at Macedonian SME owners. The five-beat formula (12.7) is attested across both authors; the ad-unit observations (9.7) rest on one author's live funnel plus the surrounding MK ad inventory — treat as well-grounded for the consulting niche, thinner for other niches. The spelling-traps list is real errors from these texts.
 - **Method:** rules were derived from the deep pass, then validated against the full broad sweep. The complete validation killed no rule and confirmed the load-bearing ones (clitic doubling, the connector finding, trailing attribution, renarrated past, number grammar) across 100+ texts each — these are high-confidence. A few (scheduled-present tense, `сè додека` negation) rest on fewer examples and are marked in-text as tendencies — reliable but not exceptionless. Two rules are register-dependent and the guide flags both readings: foreign brand names may stay in Latin in contemporary copy (Section 8), and foreign institutions may take the subject slot English-style (Section 3.2).
 - **What this file deliberately excludes:** personal style preferences of any individual writer. It teaches the *language*, not a house voice. Layer your own tone on top.
 - **Contributing:** the highest-value contribution is a **caught calque** — a phrase an AI produced that no native would say — in the form `bad phrase → natural phrase → English source`, added to the Section 1 blacklist. Corrections are paid for once and should never be paid for twice.
