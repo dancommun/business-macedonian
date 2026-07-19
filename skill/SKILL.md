@@ -36,3 +36,5 @@ The guide has dedicated sections for **marketing/sales** (CTAs, slogans, the „
 ## Self-review
 
 Always finish with the read-aloud test in Section 7. When genuinely unsure a phrase is natural, choose the plainest wording — boring-but-correct is invisible; wrong-but-fancy is a showstopper.
+
+When a single **word** is in doubt (does it exist, which form is standard), check the official dictionary **makedonski.gov.mk** — it settles words, not phrasing.
