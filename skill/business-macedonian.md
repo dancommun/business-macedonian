@@ -435,6 +435,22 @@ Also a precision trap, not a spelling one: **„забавува"** is ambiguous
 
 Clean standard orthography is cheap differentiation — the corpus proves readers tolerate errors, not that errors help.
 
+### Serbian-influence and word-choice traps (a second foreignness axis)
+
+Separate from English calques (Section 1), an AI writing Macedonian also leaks **Serbian-influenced constructions and imprecise word choices**, because the training data blends Macedonian with neighbouring Slavic languages. These sound foreign to a Macedonian ear the same way a calque does. Sourced from Macedonian lektori's "common mistakes" columns ([reper.net.mk](https://reper.net.mk/2013/05/12/najcesti-greski/), [lektor.mk](https://www.lektor.mk/)) and validated against standard norms.
+
+| ❌ Foreign-sounding | ✅ Native | What's going on |
+|---|---|---|
+| да се земе **во** предвид | да се земе **предвид** | „во" is redundant — „пред" already sits inside „предвид" |
+| **позади** планот стои… | **зад** планот стои… | „позади" is a Serbianism; the standard preposition is „зад" |
+| **било** што, **било** кој, **било** каде | што **било**, кој **било**, каде **било** | native word order puts the pronoun first, the particle „било" second |
+| недостаток на средства / докази / кадар | **недостиг** на средства / докази / кадар | „недостаток" = a defect or flaw; „недостиг" = a shortage or lack. For missing quantity of something needed, use „недостиг" |
+
+Two more that are correct steers but have legitimate exceptions — apply with a native ear, do not overcorrect:
+
+- **`после` → `по` for a temporal sequence.** „после" is only valid as a standalone adverb (`Прво потпиши, после плати`). As a preposition meaning "after X", native is „по": `по состанокот`, `по ручекот` — not „после состанокот". *(Flagged for native confirmation.)*
+- **`така да` → `така што` for a "so that / with the result that" clause.** `Го сменивме процесот, така што сега трае половина ден` — „така да" here is Serbian. But a genuine purpose „да"-clause stays („дојде за да помогне"); only the result connective is being corrected. *(Flagged for native confirmation.)*
+
 ---
 
 ## Section 9 — Marketing & Sales Register (promotional copy)
