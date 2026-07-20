@@ -445,6 +445,8 @@ Separate from English calques (Section 1), an AI writing Macedonian also leaks *
 | **позади** планот стои… | **зад** планот стои… | „позади" is a Serbianism; the standard preposition is „зад" |
 | **било** што, **било** кој, **било** каде | што **било**, кој **било**, каде **било** | native word order puts the pronoun first, the particle „било" second |
 | недостаток на средства / докази / кадар | **недостиг** на средства / докази / кадар | „недостаток" = a defect or flaw; „недостиг" = a shortage or lack. For missing quantity of something needed, use „недостиг" |
+| **заради** дождот / недостигот | **поради** дождот / недостигот | „заради" = for the sake of / purpose (`заради иднината`); „поради" = because of / cause. Business text almost always means cause — when in doubt, „поради" |
+| **надокнади** ја штетата / трошокот | **надомести** ја штетата / трошокот | „надокнади / надокнада" is Serbian-influenced; native is „надомести", noun „надоместок" (fee, compensation, reimbursement) |
 
 Two more that are correct steers but have legitimate exceptions — apply with a native ear, do not overcorrect:
 
