@@ -25,6 +25,7 @@ This is the single highest-value rule in the file. One calqued idiom undoes a pa
 1. When you catch yourself translating a vivid English phrase, treat it as a **red flag**, not a win.
 2. Ask what the phrase *means*, strip it to the plain meaning, and say that.
 3. Only use a Macedonian idiom if you have positive knowledge it is real. Native idioms are welcome; *invented* ones are fatal. If unsure, go plain.
+4. **Trust hierarchy: a correction from a native human reviewer outranks every rule in this file.** This file is corpus-derived; a native reader's ear is the ground truth the corpus approximates. When native feedback conflicts with a written rule, the native wins — apply the correction everywhere (including already-published copy) and update the written rule the same day. (Established on the BusinessPulse email-sequence reviews, July 2026.)
 
 ### Blacklist of caught calques
 
@@ -60,6 +61,14 @@ These are real failures. The pattern matters more than the individual entry: **a
 | длабоко нурни | детален преглед / темелна анализа | deep dive |
 | победи-победи ситуација | ситуација од која сите добиваат / обострана корист | win-win situation |
 | го поместува теренот | менува сè / прекројува сè | game changer |
+| залепете го текстот | вметнете / внесете го текстот | paste the text (залепи = physically glue) |
+| не знаеш каде истекува (за пари) | парите ти бегаат некаде | you don't know where it's leaking |
+| Како стои бизнисот во споредба со… | Каде е бизнисот во однос на… | how does it stand compared to |
+| разговори што умираат во инбоксот | остануваат заборавени во инбоксот | conversations dying in the inbox |
+| податоците течат меѓу системите | се движат меѓу системите | data flows between systems |
+| клучевите се кај еден човек | сè зависи од еден човек | one person holds the keys |
+| растот е процес, а не талент | следи дефиниран процес, а не случајност | process, not talent |
+| работата се држи на памтење | се потпира на нечија меморија | the work runs on memory |
 
 **Also treat as calques (English sentence-frames, not just idioms):**
 - "Дозволете ми да…" for "Let me…" → just do it: не "Дозволете ми да објаснам", туку directly објасни.
@@ -695,6 +704,46 @@ A bare plural vocative on its own line, ending in a **comma** (never a colon):
 | Не двоумете се да ме контактирате | Ви стојам на располагање. | "don't hesitate to contact me" |
 | Драг господине… | Почитуван господине… | over-warm "Dear" |
 | Со најдобри желби / Искрено Ваш | Со почит, / Срдечен поздрав, | "Best wishes / Sincerely yours" |
+
+### 11.6 Nurture & marketing-email register (native-review corpus, July 2026)
+
+Derived from three native review passes (ad copy + 20 nurture emails, ~100
+corrections) on real MK marketing sequences. These are the patterns natives
+consistently enforced; treat them as law for owner-facing nurture prose.
+
+**Shape rules:**
+
+1. **Benefit promises take future tense + ви:** „проценката ќе ви покаже", never „проценката покажува". Confirmed independently in every review.
+2. **Soften tool/feature claims with `може да`:** „AI може да ви помогне", „би можеле да ви заштедат" — not „AI помага", „би ви заштедиле". A capability is an offer, not a fact.
+3. **Expand clever fragments into full sentences:** „Приходот — одлука или надеж?" → „Приходот доаѓа од одлуки или надеж дека некој ќе се јави?". Plain beats clever, every single time it was tested.
+4. **Expand telegraphic lists into descriptive noun phrases:** „кому продавате, до нови клиенти, можности" → „целна публика, привлекување нови клиенти, препознавање можности".
+5. **Restate the explicit subject:** „не си го познавате бизнисот" → „вашиот бизнис"; „одговорите" → „вашите одговори"; „каде сте денес" → „каква е вашата состојба денес".
+6. **Advice in Вие-register uses the frame „Ве советуваме да…"**, not „Еден совет: …".
+7. **Drop dash-connectors in subject/preview lines:** „резултатот - и каде…" → „резултатот и каде…".
+8. **Indefinite form after a colon in subjects:** „Најслаба алка: јасност", not „јасноста".
+9. **A trailing list item is an adverb:** „…30 прашања, околу 8 минути, бесплатно" (but „проценката е бесплатна" keeps the adjective).
+
+**Vocabulary the reviews enforced (business register):**
+
+| ❌ Written | ✅ Native preference |
+|---|---|
+| фирми (in peer comparisons) | компании („тие компании не се поголеми од вашата"; generic „во секоја фирма" stays) |
+| бројките се собираат / се читаат | се следат |
+| по чувство | по интуиција |
+| погледот однадвор | надворешната перспектива |
+| промет (кога значи приход) | приход |
+| не вреди (производ) | не носи вредност |
+| виси од вас | зависи од вас |
+| запишани (процеси) | документирани |
+| преуредување (орг. промена) | реструктурирање |
+| се предава (работа) | се делегира |
+| отчетност | одговорност |
+| ритам (како име на област) | редовно следење |
+| дигитални темели | дигитална инфраструктура |
+| паметни зависности | паметно поврзани системи |
+| расфрлани фајлови | неорганизирани фајлови |
+| по систем / по среќа | систематски / „на среќа" |
+| длабинска проценка | детална проценка (assessments are named by speed/detail: брза/детална) |
 
 ---
 
