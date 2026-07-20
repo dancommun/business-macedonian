@@ -465,8 +465,7 @@ Separate from English calques (Section 1), an AI writing Macedonian also leaks *
 
 Two more that are correct steers but have legitimate exceptions — apply with a native ear, do not overcorrect:
 
-- **`после` → `по` for a temporal sequence.** „после" is only valid as a standalone adverb (`Прво потпиши, после плати`). As a preposition meaning "after X", native is „по": `по состанокот`, `по ручекот` — not „после состанокот". *(Flagged for native confirmation.)*
-- **`така да` → `така што` for a "so that / with the result that" clause.** `Го сменивме процесот, така што сега трае половина ден` — „така да" here is Serbian. But a genuine purpose „да"-clause stays („дојде за да помогне"); only the result connective is being corrected. *(Flagged for native confirmation.)*
+- **`после` → `по` for a temporal sequence.** „после" is only valid as a standalone adverb (`Прво потпиши, после плати`). As a preposition meaning "after X", native is „по": `по состанокот`, `по ручекот` — not „после состанокот".- **`така да` → `така што` for a "so that / with the result that" clause.** `Го сменивме процесот, така што сега трае половина ден` — „така да" here is Serbian. But a genuine purpose „да"-clause stays („дојде за да помогне"); only the result connective is being corrected.
 
 ---
 
