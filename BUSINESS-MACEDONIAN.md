@@ -754,6 +754,12 @@ consistently enforced; treat them as law for owner-facing nurture prose.
 | црно на бело (marketing claim) | измерено и докажано (concrete beats idiom in ads) |
 | пресуда / на салфетка (report metaphors) | одлука / на една страница |
 
+**No Serbian-style count form (native ruling 2026-07-21):** Macedonian numerals
+take the normal **-и plural**: „два термини", „три консултанти", „четири
+извештаи". The Serbian count form („два термина") is an interference error.
+Only lexicalized time words keep the old form: „два дена", „два месеца",
+„два часа".
+
 **Intensifiers are native marketing register** (native review 2026-07-21): the
 reviewer *added* „без никаква обврска", „сосема бесплатно", „само десетина
 минути", „за само 30 дена". In ти/Вие marketing copy the amplifier is natural —
