@@ -744,6 +744,21 @@ consistently enforced; treat them as law for owner-facing nurture prose.
 | расфрлани фајлови | неорганизирани фајлови |
 | по систем / по среќа | систематски / „на среќа" |
 | длабинска проценка | детална проценка (assessments are named by speed/detail: брза/детална) |
+| прашалникот/проценката кажува | покажува (instruments SHOW, not tell) |
+| тоа се гледа и во X (knock-on effects) | тоа се рефлектира и во X |
+| сандаче | инбокс (the borrowed term wins over the calquey-cute one) |
+| сопствено истражување | надворешно истражување |
+| погодувате | се потпирате на претпоставки / одлучувате напамет |
+| Ако да - ... (Вие register) | Доколку сте заинтересирани, ... |
+| Одговорете кој термин / преку страницата | Пишете ми кој термин / на линкот подолу |
+| црно на бело (marketing claim) | измерено и докажано (concrete beats idiom in ads) |
+| пресуда / на салфетка (report metaphors) | одлука / на една страница |
+
+**Intensifiers are native marketing register** (native review 2026-07-21): the
+reviewer *added* „без никаква обврска", „сосема бесплатно", „само десетина
+минути", „за само 30 дена". In ти/Вие marketing copy the amplifier is natural —
+don't minimise it away. The „-ов" demonstrative („периодов") is accepted even
+in Вие emails.
 
 ---
 
