@@ -722,6 +722,7 @@ consistently enforced; treat them as law for owner-facing nurture prose.
 7. **Drop dash-connectors in subject/preview lines:** „резултатот - и каде…" → „резултатот и каде…".
 8. **Indefinite form after a colon in subjects:** „Најслаба алка: јасност", not „јасноста".
 9. **A trailing list item is an adverb:** „…30 прашања, околу 8 минути, бесплатно" (but „проценката е бесплатна" keeps the adjective).
+10. **The „Што е тоа што…" frame is the native question shape:** „Што треба да поправиш прво?" → „Што е тоа што прво треба да го поправиш?" Confirmed in three separate review passes, including once in a subject line. It also restores the clitic („го").
 
 **Vocabulary the reviews enforced (business register):**
 
@@ -753,6 +754,19 @@ consistently enforced; treat them as law for owner-facing nurture prose.
 | Одговорете кој термин / преку страницата | Пишете ми кој термин / на линкот подолу |
 | црно на бело (marketing claim) | измерено и докажано (concrete beats idiom in ads) |
 | пресуда / на салфетка (report metaphors) | одлука / на една страница |
+| ја зема областа | ја анализира областа |
+| извештајот стигнува веднаш | го добиваш веднаш (receiver verb, not arrival verb) |
+| тоа бара поглед во | анализа на / подетален преглед на |
+| Доста прашалници | Доволно прашалници |
+| расипан бизнис (во реклама) | бизнис што не функционира (расипан passes in blog prose, too blunt in an ad) |
+| побрзо ќе го докрајчи | побрзо ќе го уништи |
+| мртов инвентар | заробени во залихи („100.000 евра заробени во залихи") |
+| не со одговори | не со претпоставки |
+| Кратко и конкретно: | Ќе бидеме кратки: |
+| Едно да или не. | Одговорот е едноставен: да или не. |
+| Пример од наша дијагностика: | Еве еден пример од наша дијагностика: |
+| извештајот е кај вас | го добивте извештајот заедно со оценка за секоја од областите |
+| шест бира | шест бироа (биро → бироа) |
 
 **No Serbian-style count form (native ruling 2026-07-21):** Macedonian numerals
 take the normal **-и plural**: „два термини", „три консултанти", „четири
@@ -765,6 +779,10 @@ reviewer *added* „без никаква обврска", „сосема бе�
 минути", „за само 30 дена". In ти/Вие marketing copy the amplifier is natural —
 don't minimise it away. The „-ов" demonstrative („периодов") is accepted even
 in Вие emails.
+
+**„дедицирани" is accepted (native ruling 2026-07-21):** in marketing copy
+„дедицирани" is the owner's explicit preference over „наменети". Do not
+correct it back - this ruling overrules the general avoid-anglicisms habit.
 
 ---
 
