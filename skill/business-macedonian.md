@@ -786,6 +786,75 @@ correct it back - this ruling overrules the general avoid-anglicisms habit.
 
 ---
 
+### 11.7 Story-led owner emails, ти-register (Kochovski corpus, August 2026)
+
+Derived from seven native-written nurture emails by a Macedonian SME mentor
+(Tetovo, Kajabi funnel, Jul-Aug 2026) that Dancho kept as a language and
+pattern specimen. This is the register natives use when an owner talks to an
+owner: confession first, diagnosis second, one invitation at the end. It is
+the opposite of the Вие nurture register in 11.6, and the two must not be
+mixed: the 11.6 vocabulary corrections (компании, приход, по интуиција) would
+kill this voice. Pick the register by sender persona: a firm writes in 11.6, a
+person writes in 11.7.
+
+**Shape rules:**
+
+1. **Second person singular plus first-person confession.** The writer is a recovered owner, not an expert: „двапати се опуштив и двата пати завршив со тежок банкрот". Authority comes from the scar, never from the title.
+2. **One sentence per line.** Paragraphs are one line long; rhythm is made with line breaks, not connectors. Three or four questions in a row are normal: „Кој прв ќе почне да те бара? За што? Што ќе заглави…?"
+3. **Discourse particles carry the voice:** „Абе…", „Ај…", „Е тука почнува…", „Е за ова сакам да ти кажам нешто.", „Ама…", „Баш обратно.", „Секако дека не беше добро", „И знаеш што е најлудото?", „Најлошо?". Without them the text reads as a translation.
+4. **Colloquial business nouns stay colloquial:** фирма, газда, промет, роба, плати, кирија, ддв, кадар, понуди, наплата. In this register „компанија" and „приход" sound like the accountant walked in.
+5. **Pain in scenes, then one abstract noun, once.** The 25th of the month, the phone switched off, the wife asking how the day was; only after the scene does the word „систем" or „структура" or „улоги" appear, and it appears once.
+6. **The „Има X, ама нема Y" ladder:** „Има луѓе - ама нема јасни позиции. Има задачи - ама нема јасна одговорност за резултат. Има договори - ама правилата се во главата на сопственикот." Four rungs, same shape, no connector.
+7. **The salutation is the first name alone** („Dancho,"), or nothing; the subject line is the first line of the story in first person („Вака ми изгледаше секој 25-ти во месецот").
+8. **The P.S. protects the hero of the story:** „Александра не е лош сопственик. Напротив…". Never leave a named client looking foolish.
+9. **The call to action is conditional on recognition, and it invites looking, not buying:** „Ако додека го читаш ова си помисли: „Добро, ова е баш она со што се мачам" … погледни што подготвивме." Plus an explicit anti-promise: „Не ти ветувам магично апче."
+10. **Recognition frame opens the sequence:** „мислам дека ќе се препознаеш во ова"; and the two-sided view: „Од страна, некој веројатно би рекол дека ти оди супер. Ама ти ја знаеш другата страна."
+
+**Phrase bank (attested, owner-to-owner register):**
+
+| Native phrase | Literal | What it does |
+|---|---|---|
+| Сум си креирал работно место. Само со полоша плата и повеќе нерви од вработените. | I built myself a job, with worse pay and more nerves than the staff | the "you own a job, not a business" idea, the native way |
+| Тоа не е фирма. Тоа е трчање во круг. | that is not a firm, that is running in a circle | verdict line after a scene |
+| ме вадеше од памет | took me out of my mind | "drove me mad", the strongest everyday form |
+| Никогаш немав мир. / не сакам мојот мир да зависи од тоа дали… | I never had peace / I do not want my peace to depend on… | „мир" is the owner's goal word; use it instead of "freedom" or "control" |
+| малку поземаш воздух / конечно малку да здивнам | you take a little air / finally to breathe a bit | the good month that is not relief |
+| Абе седи, не се опуштај. / Ај сеј си мирен. | sit, do not relax / come on, stay calm | the inner voice, quoted as speech |
+| да стиснеш заби кога е лошо и да фатиш што повеќе кога е добро | grit your teeth when bad, grab as much as you can when good | the feast-and-famine reflex |
+| Ајде пушти нешто. / Ајде нешто на Facebook. | come on, push something out / something on Facebook | panic marketing, in the owner's own words |
+| маркетинг од страв | marketing from fear | the abstract noun, after the scene |
+| предвидливо и без паника и надеж | predictably, without panic and hope | the promise, negatively stated |
+| Влегува човек, излегува човек, и толку. | a person walks in, a person walks out, and that is it | "nobody measures", as a scene |
+| Не оти криеше, туку никој не мерел. | not that she hid it, but nobody measured | „не оти…, туку…" = "not because…, but…" |
+| работев по чувство | I worked by feel | colloquial; 11.6's „по интуиција" is the Вие version |
+| кога не мериш, единственото што ти останува е да туркаш посилно | when you do not measure, all that is left is to push harder | measurement argument in one line |
+| се нервираш повеќе | you get worked up more | the human cost, plain |
+| газдата / „За секој случај, прашај го газдата." | the boss / just in case, ask the boss | the owner seen from the employee's side |
+| Абе овие размислуваат ли нешто? / Што мора сто пати едно исто да им кажувам? / Само плата ги интересира. | do these people think at all? / why must I say the same thing a hundred times? / only the salary interests them | the owner's three complaints, verbatim |
+| до 10h веќе си влезен во пет туѓи проблеми | by 10 you are already inside five other people's problems | the morning plan dying |
+| работи што „само ти можеш да ги завршиш" | things that "only you can finish" | the dependency, in quotation marks |
+| до кога јас ќе морам да бидам вмешан во сè? | until when must I be involved in everything? | the owner's question, first person |
+| бизнисот расте побрзо од начинот на кој е организиран | the business grows faster than the way it is organised | the diagnosis, one abstract sentence |
+| Ти треба поинаку поставен бизнис. | you need a differently set-up business | „поставен" = set up, structured |
+| Ми фалат пари за плати за пет дена. Кирија на први. | I am short of money for salaries in five days. Rent on the first. | the cash scene, nouns only |
+| Седам и пресметувам по сто пати. Како да ќе се смени бројката ако ја гледам подолго. | I sit and recalculate a hundred times. As if the number will change if I look longer. | humour inside the pain |
+| Кому да се јавам. Кого да замолам. Кој ми должи. | whom to call, whom to ask, who owes me | the debtor triage |
+| секој проклет месец | every damned month | intensifier allowed in this register |
+| веќе немав сила да се објаснувам | I no longer had the strength to explain myself | the home scene closer |
+| Ако јас не ги гурнам, ништо нема да се случи. | if I do not push them, nothing will happen | the belief being dismantled |
+| Нема луѓе. Никој не сака да работи. / нема кадар | there are no people; nobody wants to work / no staff | the hiring cliché, quoted to be refuted |
+| Не ти ветувам магично апче. | I do not promise you a magic pill | the anti-promise |
+| телефон полн со фотографии од слајдови што никогаш повеќе нема да ги отвориш | a phone full of slide photos you will never open again | the anti-conference line |
+| Сакам да работиш НА ТВОЈОТ БИЗНИС | I want you to work ON your business | capitals used once, for the thesis |
+| ќе ми биде драго да се видиме таму | I will be glad to see you there | the soft close |
+| Сите мислат дека сум добро | everyone thinks I am fine | the book title; the owner's mask |
+
+**Calque check:** none of the 9.6 blacklist appears in the seven mails;
+„решенија" does not occur once. That absence is itself the lesson: native
+owner prose names things (плати, кирија, роба, понуди), never "solutions".
+
+---
+
 ## Section 12 — Social & Short-form Register (posts, thought-leadership, announcements)
 
 LinkedIn posts, opinion pieces, and short brand/social copy. This is where English "engagement" habits calque most aggressively, and where the native voice is most different. Derived from Macedonian thought-leadership essays and local brand short-form copy.
