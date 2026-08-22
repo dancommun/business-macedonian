@@ -788,8 +788,8 @@ correct it back - this ruling overrules the general avoid-anglicisms habit.
 
 ### 11.7 Story-led owner emails, ти-register (Kochovski corpus, August 2026)
 
-Derived from seven native-written nurture emails by a Macedonian SME mentor
-(Tetovo, Kajabi funnel, Jul-Aug 2026) that Dancho kept as a language and
+Derived from eight native-written nurture emails by a Macedonian SME mentor
+(Tetovo, Kajabi funnel, 21 Jul to 22 Aug 2026) that Dancho kept as a language and
 pattern specimen. This is the register natives use when an owner talks to an
 owner: confession first, diagnosis second, one invitation at the end. It is
 the opposite of the Вие nurture register in 11.6, and the two must not be
@@ -809,6 +809,7 @@ person writes in 11.7.
 8. **The P.S. protects the hero of the story:** „Александра не е лош сопственик. Напротив…". Never leave a named client looking foolish.
 9. **The call to action is conditional on recognition, and it invites looking, not buying:** „Ако додека го читаш ова си помисли: „Добро, ова е баш она со што се мачам" … погледни што подготвивме." Plus an explicit anti-promise: „Не ти ветувам магично апче."
 10. **Recognition frame opens the sequence:** „мислам дека ќе се препознаеш во ова"; and the two-sided view: „Од страна, некој веројатно би рекол дека ти оди супер. Ама ти ја знаеш другата страна."
+11. **The objection email (added from the 22 Aug 2026 mail).** One mail before the event quotes the reader's own disqualifying sentence („Мојот бизнис е мал. Такви работи се за големи фирми."), admits it was once the writer's („И јас го мислев истото."), turns with „Ама застани малку. Од каде доаѓа таа реченица?", and ties the sentence by anaphora to four other behaviours („Истата што… / Истата поради која…") before a two-line verdict. The hero's proof is that she acted at the size she was („Не чекаше да порасне фирмата па да ја средува."). The close removes the fear of the event instead of selling it: „не мора да зборуваш. Не мора да кажеш ниту една своја бројка. Само слушаш."
 
 **Phrase bank (attested, owner-to-owner register):**
 
@@ -848,8 +849,19 @@ person writes in 11.7.
 | Сакам да работиш НА ТВОЈОТ БИЗНИС | I want you to work ON your business | capitals used once, for the thesis |
 | ќе ми биде драго да се видиме таму | I will be glad to see you there | the soft close |
 | Сите мислат дека сум добро | everyone thinks I am fine | the book title; the owner's mask |
+| Мојот бизнис е мал. Такви работи се за големи фирми. | my business is small; such things are for big firms | the owner's disqualifier, quoted to be dismantled |
+| Разбирам од каде доаѓа. И јас го мислев истото. | I understand where it comes from; I thought the same | the confession before the challenge |
+| Ама застани малку. Од каде доаѓа таа реченица? | but stop a moment; where does that sentence come from? | the turn; „застани малку", not „почекај" |
+| Истата што… / Истата поради која… | the same one that… / the same one because of which… | anaphora linking one belief to four behaviours |
+| ти се стега стомакот | your stomach tightens | the body instead of the feeling word |
+| Таа реченица не ти кажува колку си голем. Таа ти кажува дека сè уште нешто се докажуваш. | that sentence does not tell you how big you are; it tells you that you are still proving something | the verdict pair |
+| Не чекаше да порасне фирмата па да ја средува. Почна од таму каде што беше. | she did not wait for the firm to grow before sorting it out; she started where she was | the objection answered by the hero's action; „да ја средува" = to sort it out |
+| Сега не продава Надица. Има тим од 8 мотивирани луѓе. | now it is not Nadica who sells; there is a team of 8 motivated people | before and after in two sentences |
+| Не мора да зборуваш. Не мора да кажеш ниту една своја бројка. Само слушаш. | you do not have to speak, or say a single number of yours; you just listen | the fear-removal close for an event |
+| Резервирај го местото | reserve the place | the button verb; not „регистрирај се" |
+| Еве како Надица доби мир, одличен тим и промет х8. | here is how Nadica got peace, an excellent team and turnover x8 | P.S. results in the owner's order, peace first |
 
-**Calque check:** none of the 9.6 blacklist appears in the seven mails;
+**Calque check:** none of the 9.6 blacklist appears in the eight mails;
 „решенија" does not occur once. That absence is itself the lesson: native
 owner prose names things (плати, кирија, роба, понуди), never "solutions".
 
