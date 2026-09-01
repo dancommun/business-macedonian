@@ -788,9 +788,14 @@ correct it back - this ruling overrules the general avoid-anglicisms habit.
 
 ### 11.7 Story-led owner emails, ти-register (Kochovski corpus, August 2026)
 
-Derived from eight native-written nurture emails by a Macedonian SME mentor
-(Tetovo, Kajabi funnel, 21 Jul to 22 Aug 2026) that Dancho kept as a language and
-pattern specimen. This is the register natives use when an owner talks to an
+Derived from native-written nurture emails by a Macedonian SME mentor
+(Tetovo, Kajabi funnel) that Dancho keeps as a language and pattern specimen.
+**This is a LIVE, GROWING corpus, not a closed sample.** He stays subscribed on
+purpose - his ruling of 2026-09-01: *"I don't intend on going, but I keep adding
+to your insights and MK language improvement."* The mails arrive two or three
+times a week, and every sweep mines the new ones into this section. Read so far:
+eight mails 21 Jul to 22 Aug 2026, then four more 23 Aug to 1 Sep 2026 (rules
+12-18 and the last fourteen phrase-bank rows). This is the register natives use when an owner talks to an
 owner: confession first, diagnosis second, one invitation at the end. It is
 the opposite of the Вие nurture register in 11.6, and the two must not be
 mixed: the 11.6 vocabulary corrections (компании, приход, по интуиција) would
