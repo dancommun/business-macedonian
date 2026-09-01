@@ -811,6 +811,14 @@ person writes in 11.7.
 10. **Recognition frame opens the sequence:** „мислам дека ќе се препознаеш во ова"; and the two-sided view: „Од страна, некој веројатно би рекол дека ти оди супер. Ама ти ја знаеш другата страна."
 11. **The objection email (added from the 22 Aug 2026 mail).** One mail before the event quotes the reader's own disqualifying sentence („Мојот бизнис е мал. Такви работи се за големи фирми."), admits it was once the writer's („И јас го мислев истото."), turns with „Ама застани малку. Од каде доаѓа таа реченица?", and ties the sentence by anaphora to four other behaviours („Истата што… / Истата поради која…") before a two-line verdict. The hero's proof is that she acted at the size she was („Не чекаше да порасне фирмата па да ја средува."). The close removes the fear of the event instead of selling it: „не мора да зборуваш. Не мора да кажеш ниту една своја бројка. Само слушаш."
 
+12. **The confession email that names who you cannot tell (23 Aug 2026).** The strongest emotional move in the corpus, and it is structural rather than adjectival. Open by separating the two hardships: the work is bearable, the silence is not - „Најтешко кај сопственикот не е работата. **Работа се издржува.** Најтешко е тоа што никому не можеш да му кажеш како ти е навистина." Then enumerate the three audiences and the reason each is closed, one line apiece: staff, clients, family. Close the loop with the surrender line, then the inside-outside contrast in one sentence.
+13. **The wrong-question pivot - the single most reusable idea in the corpus.** The email turns self-blame into a process question, and the turn is done by quoting both questions side by side: instead of *what is wrong with process X*, the owner asks *where am I going wrong, why is this happening to me, what is wrong with me*. The diagnosis that licenses it: when a person is unclear about the numbers and the stages, he asks the wrong questions. **Any diagnostic offer written in Macedonian should carry this pair**, because it names the reader's real fear and hands him a cheaper explanation in the same breath.
+14. **The numbered-causes list, with the admission attached (1 Sep 2026).** When listing why a firm stalls, the list is flat and colloquial and the last item is the one nobody says: no person, no accountability, no process, no data, or the owner will not let a decision be taken without him. Then, immediately: *the last two are the most common and the least admitted*. **The ranking sentence does the persuading, not the list.**
+15. **The credibility close is a negation pair.** *With numbers, not with opinion.* *With concrete examples from firms in Macedonia and with numbers, not with theory.* Assert the thing and name what it is not, in four words. This is the native replacement for adjectives like "serious" or "professional", which do nothing.
+16. **The event-clip email (27 Aug 2026) - a sequence move worth copying, not just a phrasing.** Run the webinar, cut ONE five-minute segment out of it, and send that segment as its own email with the value in the subject line ("Five minutes worth 60,000 euro"). Body: what happened in the room, the one number that shocked people, the clip, then the offer made conditional on the reader's own ignorance - *if you are an owner and you do not know your conversion, this will show you the price of that not-knowing*. Registration for part two carries the recording of part one as the incentive.
+17. **The one-line reminder (25 Aug 2026) is 40 words and does four things.** Date and time on its own line; one line naming the promise; one line removing the cost of not attending (register anyway and we will send you the recording); button; sign-off. **No story, no build-up.** The long emails earn the right to this one.
+18. **The absence test as an opener.** Imagine that for seven days nobody can reach you. What stops first in your firm? And more importantly: why does it stop? One hypothetical, one question, one better question. The escalation from one day to a whole week is what makes it bite.
+
 **Phrase bank (attested, owner-to-owner register):**
 
 | Native phrase | Literal | What it does |
@@ -828,6 +836,20 @@ person writes in 11.7.
 | Влегува човек, излегува човек, и толку. | a person walks in, a person walks out, and that is it | "nobody measures", as a scene |
 | Не оти криеше, туку никој не мерел. | not that she hid it, but nobody measured | „не оти…, туку…" = "not because…, but…" |
 | работев по чувство | I worked by feel | colloquial; 11.6's „по интуиција" is the Вие version |
+| Работа се издржува. | work can be endured | separates the tolerable hardship from the real one |
+| ќе им паднат крилјата | their wings will drop | why you cannot be honest in front of staff |
+| доста им е и ним | they have had enough themselves | why you cannot be honest at home |
+| Па велиш „добро сум" и продолжуваш. | so you say "I'm fine" and carry on | the surrender line; the book's whole title lives here |
+| Однадвор супер, тим, промет. Одвнатре, човек што се прашува дали воопшто знае што прави. | outside great, team, turnover; inside, a man wondering if he knows what he is doing | the inside-outside contrast in one sentence |
+| ти се стега стомакот | your stomach tightens | the physical tell of comparing yourself with competitors |
+| вплеткан во се | tangled up in everything | the owner-dependency complaint, native form |
+| Кога се зависи од тебе, немаш кога да седнеш и да здивнеш. | when everything depends on you, there is never a moment to sit and breathe | the cost, stated as time not money |
+| Со бројки, не со мислење. | with numbers, not with opinion | the four-word credibility close |
+| туркаш посилно | you push harder | what is left when you do not measure |
+| Само почна да гледа што се случува. | she just started looking at what was happening | the intervention, deliberately unimpressive |
+| Последните две се најчести и најретко признаени. | the last two are the most common and the least admitted | the ranking sentence that does the persuading |
+| цената на тоа незнаење | the price of that not-knowing | turns a gap in knowledge into a number |
+| Замисли дека седум дена не можат да те најдат. | imagine that for seven days nobody can reach you | the absence test, as an opener |
 | кога не мериш, единственото што ти останува е да туркаш посилно | when you do not measure, all that is left is to push harder | measurement argument in one line |
 | се нервираш повеќе | you get worked up more | the human cost, plain |
 | газдата / „За секој случај, прашај го газдата." | the boss / just in case, ask the boss | the owner seen from the employee's side |
