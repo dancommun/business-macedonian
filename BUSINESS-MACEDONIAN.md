@@ -719,7 +719,7 @@ This is Section 6 (agentless се-passive for "should") and 10.2 (nominalised ob
 | „наспроти надворешната скала" | „во споредба со надворешни репери" | "against the external scale" |
 | „носи / држат X%" (a share) | „учествува со / учествуваат со X%" | "accounts for X%"; five confirmations |
 | „Што значи ова" (column header) | „Што се случува" | "What this means"; 17 headers |
-| „Прашање што ова го отвора" | „Прашање што се отвара" | the bridge line, 15 times; the reviewer wrote „отвара", the dictionary form was not opened this session |
+| „Прашање што ова го отвора" | „Прашање што се отвара" | the bridge line, 15 times; Dancho, 16.09.2026: „отвара" is the right word, „отвора" was the AI's error |
 
 **3. Latin or Cyrillic:** CNC, PVC, Viber, B2B, ISO, mm, km and software names stay Latin (ЦНЦ, ПВЦ, вибер, мм, км were all corrected); „АЛУ" becomes „алуминиумска"; EUR becomes € after the number („16.850 €"); MKD stays МКД in brackets; „6м / 18м / 36м" becomes „6 мес. / 18 мес. / 36 мес."; „~" is written out as „околу" or „приближно". The opposite for the method's own codes: source types M/D/R become М/Д/Р (М01, Р05), research areas RA1 become ИО1 (истражувачка област), H1 becomes Хипотеза 1.
 
