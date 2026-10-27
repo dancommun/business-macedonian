@@ -1188,7 +1188,7 @@ Supporting devices from the same corpus:
 - **Testimonials are confession-quotes with concrete numbers**, not praise: a client's own sentence (`„Мислев дека ќе добијам организација, а добив…"`) beats any adjective.
 - **Symptom bullet-cascades** the reader ticks through silently.
 
-### 12.9 Third-person event bio: a native review, 27.10.2026
+### 12.8 Third-person event bio: a native review, 27.10.2026
 
 Source: Claude's Macedonian short bio for the MASIT Annual Conference panel (27.10.2026) against the version Natasha sent back, which Dancho forwarded with *"here is how natasha translated it - update your translation skills"*. Register: a third-person bio for an event programme or creative.
 
