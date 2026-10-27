@@ -48,7 +48,7 @@ These are real failures. The pattern matters more than the individual entry: **a
 | го преместивме прозорецот | го поместивме рокот | moved the goalposts / window |
 | носи многу капи | работи повеќе работи истовремено | wears many hats |
 | зголеми го / скалирај | да порасне, да се прошири | scale up |
-| гради систем / производ | создава систем / производ | builds a system / product (`гради` is for physical construction only) |
+| гради систем / производ (a finished one) | создава систем / производ | builds a system / product; narrowed 27.10.2026: a native reviewer wrote „го гради BusinessPulse OS" for a product still being built, so `гради` is fine for ongoing building, `создава` for the finished thing, `основа` for a company |
 | решенија (по мерка / прилагодени) | услуги / работа скроена според вас | (tailored) solutions — marketing-speak; see Section 9.6 |
 | го подигнете вашиот бренд | го зајакнете / издигнете брендот | elevate your brand |
 | отклучите го потенцијалот | го искористите потенцијалот | unlock the potential |
@@ -1187,6 +1187,24 @@ Supporting devices from the same corpus:
 - **The checklist card:** `N знаци дека…` + 3–4 recognizable symptoms — self-diagnosis in visual form.
 - **Testimonials are confession-quotes with concrete numbers**, not praise: a client's own sentence (`„Мислев дека ќе добијам организација, а добив…"`) beats any adjective.
 - **Symptom bullet-cascades** the reader ticks through silently.
+
+### 12.9 Third-person event bio: a native review, 27.10.2026
+
+Source: Claude's Macedonian short bio for the MASIT Annual Conference panel (27.10.2026) against the version Natasha sent back, which Dancho forwarded with *"here is how natasha translated it - update your translation skills"*. Register: a third-person bio for an event programme or creative.
+
+| ❌ Claude wrote | ✅ Наташа's version | Lesson |
+|---|---|---|
+| „претприемач и менаџмент консултант" | „сериски претприемач и менаџмент консултант со долгогодишно искуство" | a bio opener carries the intensifier; „сериски претприемач" is accepted (his own CV wording) |
+| „Првата компанија ја основа на 21 година" | „Својот прв бизнис го започнува на 21 година" | „започнува бизнис" over „основа компанија" for the first venture; the possessive „својот" is natural |
+| „спроведува бизнис-дијагностики на македонски компании" | „работи на бизнис-дијагностики на македонските компании" | „работи на" for ongoing work; definite „македонските компании" |
+| „го основа BusinessPulse OS" | „го гради BusinessPulse OS" | **narrows the 2026-07 entry „гради = physical only":** a native uses „гради" for a product or system still being built; „основа" is for a company |
+| „систем ... што на сопственикот му покажува каде навистина е компанијата" | „систем ... што на сопствениците им ја покажува вистинската слика за компанијата" | plural „сопствениците"; „вистинската слика за" over the English shape „каде навистина е" |
+| „пред да одлучи што да поправи" | „пред да одлучат нешто да променат" | „променат" over „поправи"; plural agreement with „сопствениците" |
+| „на УАКС Скопје" | „на УАКС во Скопје" | the city takes „во" |
+| „малите и средни компании" | „малите и средните компании" | the definite article on both adjectives |
+| „AI и автоматизација" (formal bio) | „вештачка интелигенција и автоматизација" | in a formal bio the Macedonian term; „AI" stays in his funnel and ad copy (ruling of July 2026) |
+
+Also: her apposition is set off with a spaced hyphen („BusinessPulse OS -  систем за..."), the same " - " Dancho types himself; the en-dash rule in `macedonian-translation` is not enforced against it.
 
 ---
 
